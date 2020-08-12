@@ -24,3 +24,6 @@ I would produce a webpage that encapsualates and presents to an employers that I
 I would like to also include any information about the experience I have had as programming and have the ability to place small snippets of alternative websites and codes.
 
 The website must be able to show everything about me from my experience to my education which I currently have. This has to be a webpage that is up-to-date.
+
+I have began by creating a simple but effective navigation bar, I would prefer to add a fundimental css to create the layout and structure before customising and designing the website and its theme.
+I like to always use the bordering around each of the items in the page to be able to see hit boxes and the space on which they take. This allows for me to try and create the page depending on there the item sits on the webpage.
