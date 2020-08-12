@@ -27,3 +27,7 @@ The website must be able to show everything about me from my experience to my ed
 
 I have began by creating a simple but effective navigation bar, I would prefer to add a fundimental css to create the layout and structure before customising and designing the website and its theme.
 I like to always use the bordering around each of the items in the page to be able to see hit boxes and the space on which they take. This allows for me to try and create the page depending on there the item sits on the webpage.
+
+Next I begin by inserting a simple bit of text, image and a title and begin to alter and customise the layout, I am aiming to create the layout of the item so that both the image and text get equal amounts of visual space and neither of the items are neglected or overlooked.
+I need to make sure that each item is placed so that I can work on smaller devices and also present on bigger devices. I like to make it that mobile version of the website is simplified version of the webpage that is displayed on the desktop versions of the website.
+I would also like to make sure the theme and layout is continous and consistant.
