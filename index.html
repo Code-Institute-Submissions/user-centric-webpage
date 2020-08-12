@@ -15,9 +15,30 @@
             float: left;
         }
         .nav-bar {
-            width: 97vw;
+            width: 96.9vw;
             border: 1px solid black;
-            position: absolute;
+            position: fixed;
+            top: 0;
+        }
+        .main-con {
+            border: 1px solid black;
+            height: 250px;
+            margin-left: 5px;
+            margin-top: 45px;
+        }
+        .overview {
+            margin: 5px;
+            border: 1px solid black;
+            padding: 5px;
+            height: 90%;
+        }
+        .in-line {
+            float: left;
+            width: 33%
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
         }
     </style>
 </head>
@@ -29,6 +50,13 @@
             <a class="nav-tab">Experience</a>
             <a class="nav-tab">Education</a>
             <a class="nav-tab" style="float:right;">Contact</a>
+        </div>
+        <div class="main-con">
+            <div class="overview">
+                <img class="in-line profile-img" src="img_forest.jpg"/>
+                <h3>Overview</h3>
+                <p class="in-line">Text</p>
+            </div>
         </div>
     </div>
 </body>
