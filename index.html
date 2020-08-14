@@ -11,34 +11,39 @@
             font-style: sans-serif;
             padding: 4px;
             margin: 4px;
-            border: 1px solid black;
             float: left;
+            background-color: white;
         }
         .nav-bar {
-            width: 96.9vw;
-            border: 1px solid black;
+            width: 100%;
             position: fixed;
             top: 0;
+            left: 0;
+            overflow: hidden;
+            background-color: grey;
         }
         .main-con {
             border: 1px solid black;
-            height: 250px;
+            height: auto;
             margin-left: 5px;
             margin-top: 45px;
         }
         .overview {
             margin: 5px;
             border: 1px solid black;
-            padding: 5px;
+            padding-left: 5px;
             height: 90%;
-        }
-        .in-line {
-            float: left;
-            width: 33%
         }
         .profile-img {
             width: 100px;
             height: 100px;
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+        .overview p {
+            margin: 5px;
         }
     </style>
 </head>
@@ -53,9 +58,17 @@
         </div>
         <div class="main-con">
             <div class="overview">
-                <img class="in-line profile-img" src="img_forest.jpg"/>
-                <h3>Overview</h3>
-                <p class="in-line">Text</p>
+                <h3>Overview</h3> <hr style="width:98%;">
+                <table>
+                    <tr>
+                        <td>
+                            <img class="profile-img" src="img_forest.jpg"/>
+                        </td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.
+                        </td>
+                    </tr>
+                <table>
             </div>
         </div>
     </div>
