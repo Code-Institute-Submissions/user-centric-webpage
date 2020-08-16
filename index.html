@@ -60,19 +60,32 @@
             padding-left: 5px;
             height: auto;
         }
+        .vertical-line {
+            border-left: 1px solid black;
+            height: 245px;
+            margin-left: 26px;
+            position:absolute;
+            z-index: -1;
+        }
+        .round-border {
+            border: 1px solid black;
+            border-radius: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="main-div">
         <div class="nav-bar">
-            <a class="nav-tab">Overview</a>
-            <a class="nav-tab">About Me</a>
-            <a class="nav-tab">Experience</a>
-            <a class="nav-tab">Education</a>
-            <a class="nav-tab" style="float:right;">Contact</a>
+            <a class="nav-tab" href="#overview">Overview</a>
+            <a class="nav-tab" href="#about-me">About Me</a>
+            <a class="nav-tab" href="#experience">Experience</a>
+            <a class="nav-tab" href="#education">Education</a>
+            <a class="nav-tab" style="float:right;" href="#contact">Contact</a>
         </div>
         <div class="main-con">
-            <div id="overview" class="container">
+            <div id="overview">
+            </div>
+            <div class="container">
                 <h3>Overview</h3> <hr style="width:98%;">
                 <table>
                     <tr>
@@ -100,16 +113,28 @@
             </div>
             <div id="experience" class="container">
                 <h3>Experience</h3> <hr style="width:98%;">
-                <table>
-                    <tr>
-                        <td>
-                            <img class="round-img" src="img_avatar.png" alt="Profile Picture"/>
-                        </td>
-                        <td>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.
-                        </td>
-                    </tr>
-                </table>
+                <div class="container">
+                    <div class="vertical-line"></div>
+                    <ul class="exp-line">
+                            <li>
+                                <div class="container round-border">
+                                    <p>00/00/0000 - Berry Recruitment</p>
+                                </div>
+                            </li>
+                            <br>
+                            <li>
+                                <div class="container round-border">
+                                    <p>00/00/0000 - Berry Recruitment</p>
+                                </div>
+                            </li>
+                            <br>
+                            <li>
+                                <div class="container round-border">
+                                    <p>00/00/0000 - Berry Recruitment</p>
+                                </div>
+                            </li>
+                    </ul>
+                </div>
             </div>
             <div id="education" class="container">
                 <h3>Education</h3> <hr style="width:98%;">
@@ -124,8 +149,8 @@
                     </tr>
                 </table>
             </div>
-            <div id="Contact" class="container">
-                <h3>About Me</h3> <hr style="width:98%;">
+            <div id="contact" class="container">
+                <h3>Contact</h3> <hr style="width:98%;">
                 <table>
                     <tr>
                         <td>
