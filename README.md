@@ -39,3 +39,5 @@ So the profile image which gave a circular image border could be named circle-im
 When you begin coding you must always try and see how your code can be improved and how important it is. Naming conventions are very useful as the names allow for simple but yet effect description.
 For example, the choice of the naming convention, circle-image instead of profile-image. This would mean that the general style is not for one specific image but something that is more generalised.
 I like to create sets of classes which opens a range of options, so I may not need things like sqaure-img, but this may come in handy down the line of development.
+
+I have created a timeline which is included on the experience page, I would like to use this timeline to present the information in a formal manner. Which follows the times of each of the places that I have worked.
