@@ -41,3 +41,5 @@ For example, the choice of the naming convention, circle-image instead of profil
 I like to create sets of classes which opens a range of options, so I may not need things like sqaure-img, but this may come in handy down the line of development.
 
 I have created a timeline which is included on the experience page, I would like to use this timeline to present the information in a formal manner. Which follows the times of each of the places that I have worked.
+Also began to alter the layout of each of the of the individual pages to show a similar but unique look to the different parts of the website.
+Included some space for links within the contact page, this is for extra information like the cv and other important documents.
