@@ -32,3 +32,10 @@ I like to always use the bordering around each of the items in the page to be ab
 Next I begin by inserting a simple bit of text, image and a title and begin to alter and customise the layout, I am aiming to create the layout of the item so that both the image and text get equal amounts of visual space and neither of the items are neglected or overlooked.
 I need to make sure that each item is placed so that I can work on smaller devices and also present on bigger devices. I like to make it that mobile version of the website is simplified version of the webpage that is displayed on the desktop versions of the website.
 I would also like to make sure the theme and layout is continous and consistant.
+
+When creating a website I love to create the css and html side-by-side, as this allows for me to create the in-line style and out-of-line style. It also helps to create classes and find out similarities in classess.
+For example I had a class called profile-image and then I needed several other styles of image borders, so I also needed to include the alternate classess and gave them better naming conventions.
+So the profile image which gave a circular image border could be named circle-image, and then round-img and square-img. This allows for me to create a range of different classes. This helps prevent recessive coding.
+When you begin coding you must always try and see how your code can be improved and how important it is. Naming conventions are very useful as the names allow for simple but yet effect description.
+For example, the choice of the naming convention, circle-image instead of profile-image. This would mean that the general style is not for one specific image but something that is more generalised.
+I like to create sets of classes which opens a range of options, so I may not need things like sqaure-img, but this may come in handy down the line of development.
