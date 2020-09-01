@@ -82,6 +82,25 @@
             border-right: 0px;
             border-left: 0px;
         }
+        .table {
+            display: table;
+        }
+        .row {
+            display: table-row;
+        }
+        .cell {
+            display: table-cell;
+            float: left;
+        }
+        .w-33 {
+            width: 33%;
+        }
+        .w-66 {
+            width: 66%;
+        }
+        .w-100 {
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -99,34 +118,32 @@
             </div>
             <div class="container">
                 <h3>Overview</h3> <hr style="width:98%;">
-                <table>
-                    <col width="25%">
-                    <col width="75%">
-                    <tr>
-                        <td>
+                <div class="table">
+                    <div class="row">
+                        <div class="cell w-33">
                             <img class="circle-img" src="image/img_avatar.png" alt="Profile Picture"/>
-                        </td>
-                        <td>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                        <div class="cell w-66">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="about-me" class="container">
                 <h3>About Me</h3> <hr style="width:98%;">
-                <table>
-                    <tr>
-                        <td>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.
-                        </td>
-                    </tr>
-                </table>
+                <div class="table">
+                    <div class="row">
+                        <div class="cell w-100">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="experience" class="container">
                 <h3>Experience</h3> <hr style="width:98%;">
                 <p>Text</p>
                 <div class="container no-sides" style="margin-left: 0px;">
-                    <div class="vertical-line"></div>
+                    <div class="vertical-line h-100%"></div>
                     <ul class="exp-line">
                             <li>
                                 <div class="container round-border">
@@ -150,36 +167,32 @@
             </div>
             <div id="education" class="container">
                 <h3>Education</h3> <hr style="width:98%;">
-                <table>
-                    <tr>
-                        <td>
+                <div class="table">
+                    <div class="row">
+                        <div class="cell w-33">
                             <img class="round-img" src="img_avatar.png" alt="Profile Picture"/>
-                        </td>
-                        <td>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.
-                        </td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.
-                        </td>
-                        <td>
+                        </div>
+                        <div class="cell w-66">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell w-66">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.</p>
+                        </div>
+                        <div class="cell w-33">
                             <img class="round-img" src="img_avatar.png" alt="Profile Picture"/>
-                        </td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell w-33">
                             <img class="round-img" src="img_avatar.png" alt="Profile Picture"/>
-                        </td>
-                        <td>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                        <div class="cell w-66">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus non quam eu hendrerit. Donec feugiat sit amet elit lobortis iaculis. Ut interdum est non metus blandit volutpat. Donec ullamcorper eget odio sit amet bibendum. Vivamus at volutpat velit, fringilla ullamcorper orci. Pellentesque mollis lectus sit amet tortor dapibus pulvinar. Phasellus sit amet dui sed arcu malesuada sagittis. Proin commodo dolor nunc, eu placerat orci pharetra eget. Phasellus rutrum, velit pellentesque sodales finibus, tellus lorem condimentum arcu, at sollicitudin dolor ante sit amet elit.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="contact" class="container">
                 <h3>Contact</h3> <hr style="width:98%;">
