@@ -70,10 +70,15 @@
             }
             .vertical-line {
                 border-left: 1px solid black;
-                height: 245px;
+                height: 1040px;
                 margin-left: 26px;
                 position:absolute;
                 z-index: -1;
+            }
+            .no-sides {
+                border: 1px solid black;
+                border-right: 0px;
+                border-left: 0px;
             }
             .alt-w-33 {
                 visibility: visible;
@@ -154,10 +159,10 @@
             }
             .vertical-line {
                 border-left: 1px solid black;
-                height: 245px;
+                height: 100%;
                 margin-left: 26px;
                 position:absolute;
-                z-index: -1;
+                /* z-index: -1; */
             }
             .round-border {
                 border: 1px solid black;
@@ -200,6 +205,12 @@
                 width: 33%;
                 display: inline;
             }
+            #overview {
+                height: 100vh;
+            }
+            #about-me {
+                height: 100vh;
+            }
         }
     </style>
 </head>
@@ -214,9 +225,7 @@
         </div>
 
         <div class="main-con">
-            <div id="overview">
-            </div>
-            <div class="container">
+            <div id="overview" class="container">
                 <h3>Overview</h3> <hr style="width:98%;">
                 <div class="table">
                     <div class="row">
@@ -243,23 +252,28 @@
                 <h3>Experience</h3> <hr style="width:98%;">
                 <p>Text</p>
                 <div class="container no-sides" style="margin-left: 0px;">
-                    <div class="vertical-line h-100%"></div>
+                    <div class="vertical-line"></div>
                     <ul class="exp-line">
                             <li>
                                 <div class="container round-border">
-                                    <p>00/00/0000 - Berry Recruitment</p>
+                                    <p>00/0000 - Berry Recruitment, at the beginning of my work life. I began as agency for a local catering service, this allowed me to be able to work for many different restraunts and cafees and gave me a taste of the working world within catering. I enjoyed my time working there and learned many different things. This allowed me to work within a stressful but practical enviroment where I could begin to work under the strains and learn how to deal and cope with these types of enviroments.</p>
                                 </div>
                             </li>
                             <br>
                             <li>
                                 <div class="container round-border">
-                                    <p>00/00/0000 - Berry Recruitment</p>
+                                    <p>00/0000 - Amazon Fullfillment Center, this was only breif and was a job that I obtains through a warehousing agency, and this was mainly to see what the working world is like within the warehouse. This was to try and gain a grasp of what type of things happen in the warehouse.</p>
                                 </div>
                             </li>
                             <br>
                             <li>
                                 <div class="container round-border">
-                                    <p>00/00/0000 - Berry Recruitment</p>
+                                    <p>00/0000 / 00/0000 - Harvester, this was for around two years, one year was to compelte an apprenticeship and the second was to continue as a chef and stil help as much as I could. I loved everything about this job and loved learning about food and what its like to be a chef for a franchise and taught me how a kitchen should be ran and how to keep up the stores standards not just within the food but everything else.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="container round-border">
+                                    <p>00/0000 / Current - Amazon Sortation Center, I tried finding a range of different jobs as a chef and tried to find a local pub or restraunt that could use my skills but unfortunatly after trying to reach out to these restraunts they did not meet me with the same care. So I began working back in the warehouse just to make sure that I can continue my studies and continue to obtain a form of income. This place is better than the Fullfillment Center and has more of a friendly and helpful atmosphere.</p>
                                 </div>
                             </li>
                     </ul>
