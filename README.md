@@ -52,3 +52,6 @@ I have also added an alternative image class and traditional image class which a
 This means that you would begin to view the page on a mobile device and would begin to see the images and then text so that they are visual grouped together.
 Also beginning to finish the general layout of the mobile version of the webpage, as this would probably be the only device other than tablet that I'd like to make for. The only page layout changes that need to be present usually are when objects are not laid out as intended by the creator, and all of the objects now behave correctly across the different platforms.
 This can mean I can start to work on the actual style of the page and fill in the text and images.
+
+Changed a few different atrributes like the height of the overview and about page so that when users come to the page it would be the main part of there page that they see. I'd Like to make sure that user only sees sections at a time and can't begin to see the next section.
+Also filled in the text on the experience page so that I can try and scale the timeline div so that it has the correct height.
