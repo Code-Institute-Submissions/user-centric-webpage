@@ -57,4 +57,5 @@ Changed a few different atrributes like the height of the overview and about pag
 Also filled in the text on the experience page so that I can try and scale the timeline div so that it has the correct height.
 
 Continue to complete and fill in the different pages, I am going to finish the other pages and then try and create a simplified overview on the overview page, to give the user a taste of what the webpage contains.
-I want to make sure that I begin with the education and experience pages first and then begin to work on the other pages afterwards.
+I want to make sure that I begin with the education and experience pages first and then begin to work on the other pages afterwards. Now that most the webpage has been filled out, I am now beginning to begin to style the webpage to a custom style of what I would like to do.
+I want to make the webpage look like each of the pages are individual pieces of paper like an active, online resume.
