@@ -60,6 +60,8 @@ Continue to complete and fill in the different pages, I am going to finish the o
 I want to make sure that I begin with the education and experience pages first and then begin to work on the other pages afterwards. Now that most the webpage has been filled out, I am now beginning to begin to style the webpage to a custom style of what I would like to do.
 I want to make the webpage look like each of the pages are individual pieces of paper like an active, online resume.
 
+Finally adding images to the education page and compelting the text on that page. I am also trying to just fix the images so that they appear a little clearer and have a nice even scale.
+
 
 <h2>Issues</h2>
 
@@ -80,3 +82,42 @@ I had two friends view my webpage and tell me about there experiences.
 Going from the feedback that my friends have provided I am going to try and create slight alterations to my webpage style to include more of a colourful experience.
 
 <h2>Bibliography</h2>
+
+This section will contain all of the websites and pages that I have visited to be able to complete my User Centric Model. I use these websites to research properties and adjectives. To make sure I am using the correct words whilst programming.
+W3Schools - <a>https://www.w3schools.com/default.asp</a>
+<ul>
+    <li>
+        W3Schools HTML Module - <a>https://www.w3schools.com/html/default.asp</a>. Revisited HTML using this learning platform. I managed to learn what was needed from this webpage to be able to program the html on my webpage.
+    </li>
+    <li>
+        W3Schools CSS Module - <a>https://www.w3schools.com/css/default.asp</a>. Revisted CSS using this learning platform, I was able to understand and learn how to change my corn html to create and produce my website with its custom theme.
+    </li>
+    <li>
+        W3Schools HTML Color Picker - <a>https://www.w3schools.com/colors/colors_picker.asp</a>. This was used to create and choose the colours that have been chosen on my webpage.
+    </li>
+</ul>
+GitHub - <a>https://github.com/</a>. This is where I stored my webpage and used this and GitPod to be able to develop my website.
+
+GitPod - <a>https://gitpod.io/workspaces/</a>. This was the main workspace I used to be able to create my webpage and be able to upload it to my local repository on the GitHub repsoitories.
+
+Code Insisute GitPod Full Template - <a>https://github.com/Code-Institute-Org/gitpod-full-template</a>. I used this as the beginning to my GitPod workspace to be able to begin development on my webpage. I began by accessing this repository and began by creating local repository using this as the fundimental and then began to develop onto this.
+
+Code Institute Sample ReadMe - <a>https://github.com/Code-Institute-Solutions/SampleREADME</a>. Read this to learn what is required from me when creating the webpage for this module.
+
+Code Institute Learning Platform - <a></a>. Visited the module on the learning website to be able to learn what will be required from me during this module. Also completed this module on the learning platform to be able to complete the module on the webpage.
+
+Images from Google
+<ul>
+    <li>
+        Hope Academy Logo - <a>http://www.hopeacademy.org.uk/232/announcements/announcement/210/head-of-school</a>.
+    </li>
+    <li>
+        Hope Academy Sixth Form Logo - <a>https://twitter.com/hope6thform</a>.
+    </li>
+    <li>
+        Harvester Logo - <a>https://www.harvester.co.uk/</a>.
+    </li>
+    <li>
+        Code Institute logo - <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningpeople.com%2Fuk%2Fcourses%2Faccreditor%2Fcode-institute%2F&psig=AOvVaw10PqQT7Uogz2aRNIeVCXL1&ust=1602441876612000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCLiEj6zXquwCFQAAAAAdAAAAABAD</a>.
+    </li>
+</ul>
