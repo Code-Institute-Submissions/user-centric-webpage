@@ -14,19 +14,23 @@
                 text-decoration: none;
                 font-style: sans-serif;
                 padding: 4px;
-                margin: 4px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+                width: 100%;
                 float: left;
-                width: 97.5%;
                 background-color: #ffffff;
+                text-align: center;
             }
             .contact-tab {
                 text-decoration: none;
                 font-style: sans-serif;
                 padding: 4px;
-                margin: 4px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+                width: 100%;
                 float: left;
-                width: 97.5%;
                 background-color: #ffffff;
+                text-align: center;
             }
             .nav-bar {
                 width: 100%;
@@ -77,13 +81,6 @@
                 height: auto;
                 box-shadow: 5px 5px #cccccc;
             }
-            .vertical-line {
-                border-left: 1px solid black;
-                height: 1040px;
-                margin-left: 26px;
-                position:absolute;
-                z-index: -1;
-            }
             .no-sides {
                 border: 1px solid black;
                 border-right: 0px;
@@ -109,12 +106,29 @@
                 display: none;
                 width: 0%;
             }
+            .tra {
+                visibility: hidden;
+                display: none;
+            }
+            .t-line {
+                border-left: 1px solid black;
+                margin-left: 20px;
+            }
+            li {
+                margin-left: -26px;
+            }
             body {
                 background-color: #d9d9d9;
                 font-family: "Trebuchet MS", Helvetica, sans-serif;
             }
             a {
                 color: black;
+            }
+            a:hover {
+                background-color: #d9d9d9;
+            }
+            h3, p {
+                text-align: center;
             }
         }
         @media (min-width: 750px) {
@@ -186,13 +200,6 @@
                 height: auto;
                 box-shadow: 5px 5px #cccccc;
             }
-            .vertical-line {
-                border-left: 1px solid black;
-                height: 100%;
-                margin-left: 26px;
-                position:absolute;
-                /* z-index: -1; */
-            }
             .round-border {
                 border: 1px solid black;
                 border-radius: 20px;
@@ -242,23 +249,31 @@
                 width: 33%;
                 display: inline;
             }
-            tra-w-66 {
+            .tra-w-66 {
                 visibility: visible;
                 width: 66%;
                 display: inline;
             }
-            /* #overview {
-                height: 100vh;
+            .tra {
+                visibility: visible;
+                display: inline;
             }
-            #about-me {
-                height: 100vh;
-            } */
+            .t-line {
+                border-left: 1px solid black;
+                margin-left: 20px;
+            }
+            li {
+                margin-left: -26px;
+            }
             body {
                 background-color: #d9d9d9;
                 font-family: "Trebuchet MS", Helvetica, sans-serif;
             }
             a {
                 color: black;
+            }
+            a:hover {
+                background-color: #d9d9d9;
             }
         }
     </style>
@@ -270,7 +285,7 @@
             <a class="nav-tab" href="#about-me">About Me</a>
             <a class="nav-tab" href="#experience">Experience</a>
             <a class="nav-tab" href="#education">Education</a>
-            <a class="nav-tab contact-tab" href="#contact">Contact</a>
+            <a class="nav-tab contact-tab" id="a-contact" href="#contact">Contact</a>
         </div>
 
         <div class="main-con">
@@ -283,6 +298,9 @@
                         </div>
                         <div class="cell w-66">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga quidem ea obcaecati quam nisi, accusantium ab commodi esse accusamus illum inventore mollitia, architecto aut fugit maxime molestiae voluptatibus dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga quidem ea obcaecati quam nisi, accusantium ab commodi esse accusamus illum inventore mollitia, architecto aut fugit maxime molestiae voluptatibus dolor.</p>
+                            <div class="tra">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga quidem ea obcaecati quam nisi, accusantium ab commodi esse accusamus illum inventore mollitia, architecto aut fugit maxime molestiae voluptatibus dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga quidem ea obcaecati quam nisi, accusantium ab commodi esse accusamus illum inventore mollitia, architecto aut fugit maxime molestiae voluptatibus dolor.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -316,8 +334,7 @@
                 <h3>Experience</h3> <hr style="width:98%;">
                 <p>This is a timetable of the different places that I have worked. I have simplified a few things about the job and talked about what cause me to join the join and to leave the job.</p>
                 <div class="no-sides" style="margin-left: 0px;">
-                    <div class="vertical-line"></div>
-                    <ul class="exp-line">
+                    <ul class="t-line">
                             <li>
                                 <div class="container round-border">
                                     <p>09/2017 / 06/2018 - Berry Recruitment, at the beginning of my work life. I began as agency for a local catering service, this allowed me to be able to work for many different restraunts and cafees and gave me a taste of the working world within catering. I enjoyed my time working there and learned many different things. This allowed me to work within a stressful but practical enviroment where I could begin to work under the strains and learn how to deal and cope with these types of enviroments.</p>
