@@ -59,3 +59,11 @@ Also filled in the text on the experience page so that I can try and scale the t
 Continue to complete and fill in the different pages, I am going to finish the other pages and then try and create a simplified overview on the overview page, to give the user a taste of what the webpage contains.
 I want to make sure that I begin with the education and experience pages first and then begin to work on the other pages afterwards. Now that most the webpage has been filled out, I am now beginning to begin to style the webpage to a custom style of what I would like to do.
 I want to make the webpage look like each of the pages are individual pieces of paper like an active, online resume.
+
+
+<h2>Issues</h2>
+
+Noticing whilst I am accessing the online upload of the website provided by github, I release that the styles and corrisponding margin and padding values are not set correctly and within the work experience page, the boxes are begin to clip out side of the box and looks really unprofressional. This constent test of the website from both a mobile access point and a laptop point will begin to find a series of errors or issues with the website and will allow me to be able to make changes to the website to suit the situation and make sure that everyone who accesses my website can actually see what I am trying to encapsulate and make sure that the user hasn't got dramatically different experiences just cause he is using an alternative device.
+I had created changes to the general container class and also changed the body font-style property and the color. These changes where to one of the media forms and ment that the changes wherent visual on mobile version. Now after changing this I am able to notice that the webpage has rendered correctly.
+
+<h2>Bibliography</h2>
