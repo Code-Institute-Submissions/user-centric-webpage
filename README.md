@@ -68,4 +68,6 @@ I had created changes to the general container class and also changed the body f
 
 Sometimes when testing the website on the pc version the website wont properly render within a mobile version when decreasing the size of the webpage. I have made the media field 750 instead of 500 to make sure that the media field is overly exaggurated so that some larger mobile devices or small tablets have a more linear view of the webpage.
 
+Throughout the website I have began to notice issues on each of the indivdual access points. I have noticed that on google chrome the media forms dont behave the same as the test window and also notices that the margin values of the main container are set to give different between the navigation bar, but on some search engines this difference isnt seen and ingored. I have made the main container's position relative to help with it to be able to be positioned below its other child div.
+
 <h2>Bibliography</h2>
