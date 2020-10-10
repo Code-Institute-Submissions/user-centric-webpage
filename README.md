@@ -70,4 +70,13 @@ Sometimes when testing the website on the pc version the website wont properly r
 
 Throughout the website I have began to notice issues on each of the indivdual access points. I have noticed that on google chrome the media forms dont behave the same as the test window and also notices that the margin values of the main container are set to give different between the navigation bar, but on some search engines this difference isnt seen and ingored. I have made the main container's position relative to help with it to be able to be positioned below its other child div.
 
+Tried several different ways of creating a simple timeline effect on the work experience page. This was really hard to do. I tried originally creating a list that would clip through a div container which would go through the bullet points. But this wasn't rather effective as depending on the height of webpage the scale of the div container wouldn't stay true. I then began to mess around the ul container which the list is contained in and made it so the listed items are to appear with less of a marginal difference so it clips the mother ul container on its bullet point. This is really effect as the mother container is always true to the value of the actual list.
+
+<h2>Feedback</h2>
+I had two friends view my webpage and tell me about there experiences.
+"The webpage is very sleek and tidy, but the webpage doesnt seem to have much color and really grab the eye my eye. Other than that the webpage seems really good on mobile."
+"The webpage is very neat, there isn't much color but past that its good for a professional webpage."
+
+Going from the feedback that my friends have provided I am going to try and create slight alterations to my webpage style to include more of a colourful experience.
+
 <h2>Bibliography</h2>
