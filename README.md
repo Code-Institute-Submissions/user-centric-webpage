@@ -74,6 +74,8 @@ Throughout the website I have began to notice issues on each of the indivdual ac
 
 Tried several different ways of creating a simple timeline effect on the work experience page. This was really hard to do. I tried originally creating a list that would clip through a div container which would go through the bullet points. But this wasn't rather effective as depending on the height of webpage the scale of the div container wouldn't stay true. I then began to mess around the ul container which the list is contained in and made it so the listed items are to appear with less of a marginal difference so it clips the mother ul container on its bullet point. This is really effect as the mother container is always true to the value of the actual list.
 
+Changed the layout of a few pages, made the images more reactive on the education page and also removed the border around the images. Changed the margin value of the li tags so that they react better on mobile.
+
 <h2>Feedback</h2>
 I had two friends view my webpage and tell me about there experiences.
 "The webpage is very sleek and tidy, but the webpage doesnt seem to have much color and really grab the eye my eye. Other than that the webpage seems really good on mobile."
