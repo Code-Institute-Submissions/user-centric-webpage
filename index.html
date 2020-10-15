@@ -39,7 +39,7 @@
                 margin-top: 4px;
                 margin-bottom: 4px;
                 width: 100%;
-                float: left;
+                float: right;
                 background-color: #ffffff;
                 text-align: center;
             }
@@ -50,7 +50,7 @@
                 margin-top: 4px;
                 margin-bottom: 4px;
                 width: 100%;
-                float: left;
+                float: right;
                 background-color: #ffffff;
                 text-align: center;
             }
@@ -63,6 +63,26 @@
                 background-color: #ffffff;
                 box-shadow: 5px 5px #cccccc;
             }
+            /* .min-nav {
+                width: 25%;
+                position: fixed;
+                top: 0px;
+                left: 75%;
+                overflow: hidden;
+                background-color: #ffffff;
+                box-shadow: 5px 5px #cccccc;
+            }
+            .mini-tab {
+                position: relative;
+                text-decoration: none;
+                font-style: sans-serif;
+                padding: 4px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+                width: 25%;
+                background-color: #ffffff;
+                text-align: center;
+            } */
             .img-res {
                 width: 75vw;
                 height: 30vh;
@@ -191,12 +211,22 @@
             }
             .nav-bar {
                 width: 100%;
-                position: absolute;
+                position: fixed;
                 top: 0px;
                 left: 0px;
                 overflow: hidden;
                 background-color: #ffffff;
                 box-shadow: 5px 5px #cccccc;
+            }
+            .min-nav {
+                visibility: hidden;
+                display: none;
+                width: 0%;
+            }
+            .mini-tab {
+                visibility: hidden;
+                display: none;
+                width: 0%;
             }
             .img-res {
                 width: 25vw;
@@ -206,7 +236,6 @@
                 height: auto;
                 margin-left: 5px;
                 margin-top: 45px;
-                position: relative;
             }
             .circle-img {
                 width: 25vw;
@@ -356,8 +385,17 @@
             <a class="nav-tab" href="#about-me">About Me</a>
             <a class="nav-tab" href="#experience">Experience</a>
             <a class="nav-tab" href="#education">Education</a>
-            <a class="nav-tab contact-tab" id="a-contact" href="#contact">Contact</a>
+            <a class="nav-tab contact-tab" href="#contact">Contact</a>
         </div>
+
+            <!-- <div class="mini-nav">
+                <a class="mini-tab" href="#overview">Overview</a>
+                <a class="mini-tab" href="#about-me">About Me</a>
+                <a class="mini-tab" href="#experience">Experience</a>
+                <a class="mini-tab" href="#education">Education</a>
+                <a class="mini-tab" href="#contact">Contact</a>
+            </div> -->
+
         <!-- main-con is relevent to a parent class that has the main body of the HTML which
         includes all text but doesn't include the navigation bar. -->
         <div class="main-con">
