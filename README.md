@@ -1,87 +1,121 @@
-<h1>User Centric Model - Resume Website.</h1>
-This is my website project which I am developing for the User Centric Model of my Code Insistute cource. I am creating a website that can be used as a resume webpage and has the use of only HTML and CSS.
+<h1>User Centric Module - Resume Webpage</h1>
+For this module, I have been instructed to create a webpage that utilises HTML and CSS and creates an interactive and constructive webpage, which works across platforms and devices.
+In this module, you are able to use either a HTML, CSS editor or a bootstrap or another styling grid flow addon. The use of bootstrap is completly optional and use dont have to use any form of grid-flow addon within the development of your website.
+This would be to help you during the module and for later on in your development career as layout modifiers or styling sheets are used by several companies to make website development more robust and accessable. Not just that the website is easier to maintain and repair in future reference.
+I had original created a webpage using bootstrap but after a some time creating a website, I began to feel somewhat restricted. Even though these types of languages do allow for cross-platform support they dont offer more of a control on the general overal product and development.
+Its like creating a structure that you would then begin to build over using a styling sheet. Its helpful to use these types of languages but means that you would have to create several changes to the way you create the page.
 
-This webpage will be a set goal where I will create a very welcoming webpage that has a very broad audience and is able to be used on different devices and web browsers.
-<h2>Introudction</h2>
-Within this project I would like to create a website that is able to be used as my resume website. This sight will contain personal information that employers would like to learn about me which would help them to be able to make descisions on whether I would be a worthy employee or someone they would like to hire.
+I went for the idea of creating a professional webpage, like a resume website. In this website I would create a place where companies could go to learn about me and be able to show them my abilities as a programmer. I wanted to make sure that I created a website that followed the rules places by the module and follow rules that I apply during development or during planning.
 
-There are certain things that I would like to aim for with this webpage and try to set targets that can be achieved through an end goal.
+<h2>Introduction</h2>
+<hr>
+
+In this module you where assigned to create a webpage that is versitile and accessable from different web browsers and devices. You must make sure that the website is able to behave as intended across platform so that the user can always access what the developer is trying to create and produce.
+You must make sure that you test your website during all of development to make sure that changes to the website are set and work according to the different places you try it from.
+
+During this module, I wanted to follow some rules set by the course and by myself.
+These rules help me create an idea and encapsulate a creation that holds true to what I want from the website and what users would like to see.
+For this module,  you must try to create an interactive site using CSS or grid-styling sheet or flow language to be able to make this universal site.
+Along with this rule, I wanted to make a few of my own.
+
 <ul>
     <li>
-        I must create a website that has a simple and easy navigation which is at the core of the website.
+        I wanted to begin by creating the general structure of the site. This included planning how the styling would behave and how things like navigation would flow.
+        I started by creating a plan of the different parts of the website that I'd like to include, for example, an overview which is the home page, an about page to get personal information and updates and also an education and experience page where people can learn about my professional background.
     </li>
-        The website must contain the information about me within subsections which are named correctly and are needed by the emoployer
     <li>
-        The websites design and layout must be well structured and have a very universal design that alteres to include the different devices and web browsers.
+        I wanted to make sure that the style was true and continued throughout the document. I also wanted to make a website that stayed within the index.html, and would have a form of navigation to take the user through the file. This is to make editing easier and also I feel like it controls the flow of the user and allows for the developer to take the user down the website so as they read the information it slowly begins to allow them to learn about me and who I am.
     </li>
-        The design and structure must stay true and be simple to use to be able to allow users to understand more from the website and be able to learn and not become overwhelmed.
     <li>
-        The layout must stay consistant throughtout the different subsections.
+        The design of the page would be made so its simple to read and the sections of each site are seperated properly, and each of the webpages, like experience and education can be made in a format that will allow for future development and future updates.
+    </li>
+    <li>
+        I also wanted to style the website either as a traditional webpage or a form of word document or online CV or word editor, so each of the pages are like pieces of paper which contain the information in a natural and less forced manor.
     </li>
 </ul>
 
-I would produce a webpage that encapsualates and presents to an employers that I can create a webpage that is both informing and also universal and has a reactive and creative design.
-I would like to also include any information about the experience I have had as programming and have the ability to place small snippets of alternative websites and codes.
+<h2>Initial Consept</h2>
+I would like to create a personal and professional webpage that gives an employers my background and allows for them to be able to access a series of pages which provide information about me as a person, along with my skills and abilities which could benefit a user that accesses and views my sight.
+I want to create webpage that is visually effective and doesn't become overly complecated and is minimised and factual.
+In this webpage I want users to be able to access this information across platform, and I want them to be able to view the website in the pre-determind layout which I set using the structure.
+I want the website to be structure so that its like reading a publication or CV, with clear and effective names, titles and text. The information included has to have a specific or general connection to each title.
+The webpages must keep across a topic, and provide enough information to the user to learn about my experience but not too much information so that it becomes overwhelming. Simple but effective layouts must be used to break up information on pages like education and experience so that it is easier to read.
 
-The website must be able to show everything about me from my experience to my education which I currently have. This has to be a webpage that is up-to-date.
+I want a webpage that is not to hard to read and is able to be understood by the user. It must not have redundant or inaffective stratagys to take the users attention but the layout must keep the viewer flowing through the site going from page to page, element to element.
+Want to make sure that the website and any attachted files are also inclusive and can encapsulate not just what I want to create but how to continue to change and effectively modify my website for future devlopment.
 
 <h2>Development</h2>
-I have began by creating a simple but effective navigation bar, I would prefer to add a fundimental css to create the layout and structure before customising and designing the website and its theme.
-I like to always use the bordering around each of the items in the page to be able to see hit boxes and the space on which they take. This allows for me to try and create the page depending on there the item sits on the webpage.
+<hr>
+I have changed and modified the README file so that there are two .md files located along side the website to offer insight to the general development choices, purpose and effective illustration of what is required during this module. The other file will be to create a development log of changes that have been done to make sure that the website is maintained and to state why these changes have been compeleted.
 
-Next I begin by inserting a simple bit of text, image and a title and begin to alter and customise the layout, I am aiming to create the layout of the item so that both the image and text get equal amounts of visual space and neither of the items are neglected or overlooked.
-I need to make sure that each item is placed so that I can work on smaller devices and also present on bigger devices. I like to make it that mobile version of the website is simplified version of the webpage that is displayed on the desktop versions of the website.
-I would also like to make sure the theme and layout is continous and consistant.
+At the beginning I created a workspace on GitPod using the example provided by Code Institute, and made a copy within a local GitPod workspace and began to make and program my webpage.
+I wanted to start by thinking about how the design would flow from page to page, and from inforamtion to information.
+I began creating wireframes for two consepts that I wanted to create in my website.
+I original was going to create the website as a generic website layout and begin to alter it and give a custom style to it, but settled for the second option.
+I choice the second option as I felt like during development this would be easier to modify and more versitile. As I wanted to have some form of control over the users information path, I wanted them to read this as an autobiography or book of some form and read it, as they read on the interest may begin to peak and the user would read on.
+On mobile versions of the site I knew that I could make the website begin to funnel the information into a single row instead of having images and text side by side.
+This still ment the user would come to the image and then the overview first and would begin to create the information I have given to summaries what I have to offer.
+Then as they move through the sides, the About or about me page would be about personal life and give them an insight to who I am and how I work.
+The other two pages where for education and experience.
+I wanted these two sites to have a versitile design and a simple ability to be added to in later versions.
+I wanted this because these two websites would always change and the information would begin to build for these two sites. Having the designs and the code layouts begin versitile means that through development in the future the site is easily updated with personal or profressional information.
 
-When creating a website I love to create the css and html side-by-side, as this allows for me to create the in-line style and out-of-line style. It also helps to create classes and find out similarities in classess.
-For example I had a class called profile-image and then I needed several other styles of image borders, so I also needed to include the alternate classess and gave them better naming conventions.
-So the profile image which gave a circular image border could be named circle-image, and then round-img and square-img. This allows for me to create a range of different classes. This helps prevent recessive coding.
-When you begin coding you must always try and see how your code can be improved and how important it is. Naming conventions are very useful as the names allow for simple but yet effect description.
-For example, the choice of the naming convention, circle-image instead of profile-image. This would mean that the general style is not for one specific image but something that is more generalised.
-I like to create sets of classes which opens a range of options, so I may not need things like sqaure-img, but this may come in handy down the line of development.
+Whilst working through the flow I would begin by creating a simple but effective CSS style which I label, "hit box and bounds" which referes to the idea of where each of the div containers and other tags will sit on the page and what space they would take up. Allowing for the development of the site to be easier as understanding the size of the elements allowed for an easier customisation.
 
-I have created a timeline which is included on the experience page, I would like to use this timeline to present the information in a formal manner. Which follows the times of each of the places that I have worked.
-Also began to alter the layout of each of the of the individual pages to show a similar but unique look to the different parts of the website.
-Included some space for links within the contact page, this is for extra information like the cv and other important documents.
-I have done a few changes to some of the different layouts and tried to begin to create a controll for the tables so the content is placed within a specific size and allows for thwe content not to collide, I am also trying to create other design differences and began to try the media enquiry.
-Once I had created the layout of the webpage, I had created it on a pc, and noticed that tables don't function properly on smaller devices, so I choice to create a table which is using div's and gave them corresponding names in the css to allow for them to function like a table.
-Original I was planning on just creating and forming the layout of the webpage but now I am trying to use the different media fields to allow for me to create a suitable webpage. Now that the table has become div's I am able to control and change more about the layout.
-Now the page has its general layout. I want to make sure that I have got the highest control of the webpage so the use of tables in this instances would begin to completecate and sometimes ruin the page. In this instance we are using classess and display types to general a table that turns div containers into the containers.
-This would allow me to have higher control of how these div containers and there children should behave. I want to make sure that the webpage has a smooth but basic layout and has simple but effective changes between mobile and tablet versions of the website.
-I have also added an alternative image class and traditional image class which allows for me to change the layout of how the text and image is present. I want it so that the images and the text are grouped, but this can not be done on mobile versions as the images and text can not be displayed on the same line as this would cause too much of the display to be taken up and over used.
-This means that you would begin to view the page on a mobile device and would begin to see the images and then text so that they are visual grouped together.
-Also beginning to finish the general layout of the mobile version of the webpage, as this would probably be the only device other than tablet that I'd like to make for. The only page layout changes that need to be present usually are when objects are not laid out as intended by the creator, and all of the objects now behave correctly across the different platforms.
-This can mean I can start to work on the actual style of the page and fill in the text and images.
+Wireframe 1 - <a>https://wireframe.cc/pro/pp/93b8ebda0383695</a>
 
-Changed a few different atrributes like the height of the overview and about page so that when users come to the page it would be the main part of there page that they see. I'd Like to make sure that user only sees sections at a time and can't begin to see the next section.
-Also filled in the text on the experience page so that I can try and scale the timeline div so that it has the correct height.
+This is wireframe one, this was the first layout design. It gave more of a website feel than a webpage. I original wanted this design as later in the development and planning I began to realise the functionality and controlability of this site.
+I noticed that navigation on this site was easier than on site two, I also came to the idea of creating a nav bar that would possibly be on the left hand side of the website. After testing this on smaller devices it wasn't helpful for mobile users and took up too much screen space.
+Also when simplifying the website and modifying it for mobile devices, I noticed that It different began to have flow as I originaly intended and in fact made the sight feel enclosed and less open.
+I enjoyed the overal ability to customise this site more than the second frame but as functionality across different devices came around I thought that this design would be more of a hinderance than a benefit.
 
-Continue to complete and fill in the different pages, I am going to finish the other pages and then try and create a simplified overview on the overview page, to give the user a taste of what the webpage contains.
-I want to make sure that I begin with the education and experience pages first and then begin to work on the other pages afterwards. Now that most the webpage has been filled out, I am now beginning to begin to style the webpage to a custom style of what I would like to do.
-I want to make the webpage look like each of the pages are individual pieces of paper like an active, online resume.
+#INSERT
 
-Finally adding images to the education page and compelting the text on that page. I am also trying to just fix the images so that they appear a little clearer and have a nice even scale.
+This is wireframe two, this sight had less of a navigation ability than the other website but allowed for the website to look more like a publication or book. This is what I intended to create as its more profressional and gives more of a simple but yet effective design.
+I felt like creating a webpage, which contained information would be hard to do but allows for you to present yourself in a bigger picture and allows for you to included more information and allow for the user to be able to learn more about the developer.
+I also felt like this design allowed for future development and was a perfect design for a layout that can be changed and modified further through development. This two pages, education and experience needed to be updateable and have a robust and controllable part of the site.
+As this unit is about providing yourself in a strong and professional lighting I chose to create the webpage from the section wireframe.
+I felt like this design was strong and highly maintainable.
 
+<h2>During Development</h2>
+<hr>
 
-<h2>Issues</h2>
+After deciding the design to chose I began by creating the webpage.
+I initially placed the navigation bar at the top of the webpage so that the user can see the structure of the sight, and also be able to understand the flow on which the sight must take.
+I created the names of each of the tags to then understand which pages are to come next in the site and what they should be called and what they should discuss. Following this I laid out the website matching a current theme and began with filling the webpages and getting the structure right.
+After I had found how I would like the structure I then began to replace the fill-in text with text corrisponding with each webpage.
+Whilst during filling in the webpages I would begin to alter and set themes and styles of the webpage.
+I had original gone for a strong contrast as my design was as if the user was to be on a word document, the font was to be a strong, easily readable font and not too hard on the eyes, also including alternatives to chosen fonts.
+I had chosen a set font to be the font style that I wanted, through most of development. I wanted a font style with alternatives which are easy to read and allows for users with visual differences to be able to see the text.
 
-Noticing whilst I am accessing the online upload of the website provided by github, I release that the styles and corrisponding margin and padding values are not set correctly and within the work experience page, the boxes are begin to clip out side of the box and looks really unprofressional. This constent test of the website from both a mobile access point and a laptop point will begin to find a series of errors or issues with the website and will allow me to be able to make changes to the website to suit the situation and make sure that everyone who accesses my website can actually see what I am trying to encapsulate and make sure that the user hasn't got dramatically different experiences just cause he is using an alternative device.
-I had created changes to the general container class and also changed the body font-style property and the color. These changes where to one of the media forms and ment that the changes wherent visual on mobile version. Now after changing this I am able to notice that the webpage has rendered correctly.
+Each of the websites where labelled with pre-determind titles for each page which was discussed during development, so that the site covers both the professional insite and a personal insite.
+The titles are to guide the information which is included in each page, and allow for the information to be relative and give the user an insite to what the webpage is about. With each page being set around the development allows for the structure to stay true to the design.
 
-Sometimes when testing the website on the pc version the website wont properly render within a mobile version when decreasing the size of the webpage. I have made the media field 750 instead of 500 to make sure that the media field is overly exaggurated so that some larger mobile devices or small tablets have a more linear view of the webpage.
+The color contrast, simplisity but professional layout means that the information is fed to the user and that there is a nice gentle layout to guide the user but not distract them. This makes sure that the user is taking in the information, the information is broken down into deep paragraphs which touch upon what the page is trying to say.
 
-Throughout the website I have began to notice issues on each of the indivdual access points. I have noticed that on google chrome the media forms dont behave the same as the test window and also notices that the margin values of the main container are set to give different between the navigation bar, but on some search engines this difference isnt seen and ingored. I have made the main container's position relative to help with it to be able to be positioned below its other child div.
+This layout stays true to the original design and keeps the form and layout even when on mobile or tablet.
 
-Tried several different ways of creating a simple timeline effect on the work experience page. This was really hard to do. I tried originally creating a list that would clip through a div container which would go through the bullet points. But this wasn't rather effective as depending on the height of webpage the scale of the div container wouldn't stay true. I then began to mess around the ul container which the list is contained in and made it so the listed items are to appear with less of a marginal difference so it clips the mother ul container on its bullet point. This is really effect as the mother container is always true to the value of the actual list.
+Using the structure I have pre-made, I am able to keep the information guided and allow for each page to keep its structure and stay relative to the core point of the page. At the end of development the website will be checked by a CSS and HTML validator to make sure that the site has been structured and created properly. I have added some contact links to the bottom of the webpage in the contact page which connect and link to external sources such as a professional LinkdIn, and any other documents like CV and work hours. Included a contact email.
+During development I create a simple skeleton layout which allowed for me to be able to modify and create the webpage as intended. Also created collapseable tables which where used to structure and layout the div containers and elements on each page which begin to become full rows and are given the full space on mobile or smaller devices if needed.
+Included a profile picture for the beginning of the website and also some images on the education page to offer a logo or image to backup the company or institute that I was studying / working for. Each image is given a set size and scale to match up. Originally the images would behave irregular and wouldn't change across platform. Now after modifying the code the images are of a sufficient scale and size so that the image is viewable on mobile but not too big on table or larger devices.
+I wanted to maintain and keep a sensible flow throughtout the webpage no matter how the website is viewed. This is why I continued to test every feature across devices and search engines. With the choices of the titles of each page I believe that the user is able to understand what I have began to illustrate through my webpage.
 
-Changed the layout of a few pages, made the images more reactive on the education page and also removed the border around the images. Changed the margin value of the li tags so that they react better on mobile.
+Through development at the beginning I used pre-marked text to be able to fill in the website space for each of the pages to get the size and layout of each element before filling the pages with relevant and specific information.
 
-<h2>Feedback</h2>
-I had two friends view my webpage and tell me about there experiences.
-"The webpage is very sleek and tidy, but the webpage doesnt seem to have much color and really grab the eye my eye. Other than that the webpage seems really good on mobile."
-"The webpage is very neat, there isn't much color but past that its good for a professional webpage."
+#INSERT
 
-Going from the feedback that my friends have provided I am going to try and create slight alterations to my webpage style to include more of a colourful experience.
+Throughout the index.html file, I have kept consistancies in naming conventions and layouts across the webpage. I have made the structure well spaced and progressive so that the HTML code can be easily read and maintained.
+The structure of the file layout, is designed so that the webpage is understandable and simplified. The image assets are located inside a folder located within the parent of the index file, along with a CSS file for future CSS external files. Naming conventions across these different files are in lower-case and without spacing to allow for compatibility and universatility.
+
+For the entire development of this project I have used GitHub to stream, upload and store my website. Whilst I have used the editor GitPod to take the project and modify it and allow for me to be able to upload and push the files back to the file repository.
+Use of commenting implemented during programming to allow for other programmers to be able to understand the webpage and learn how to maintain and modify the code as they feel fit.
+
+Once completed the README file will be placed into a word editing software to check for grammatic or spelling mistakes. This is to make sure that the README file is properly understandable and can be used to understand development and how the website was produced.
+
+Throught this project, I have create different things on the website and as I reached the nearing the second stage of the website development, which would be changing information and filling in the pages, I also tested and viewed how the website behaved on different devices and different search engines to make sure that the website was highly compatible and maintained funcationality across different devices.
+Testing is maintained throughout production of the website to make sure that it is created as intended.
+
+During development I have tried to stick to the structure that I initially created along with the purpose and aims of the site in mind.
 
 <h2>Bibliography</h2>
 
