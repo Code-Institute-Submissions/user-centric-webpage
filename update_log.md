@@ -35,4 +35,21 @@ general border around the HTML elements, and be able to create and structure the
         Issues with the navigation bar, originally going to be fixed above the webpage but took up too much space, and intefered with the navigation bar and the hyperlinks. It covered a section of the screen once you where taken to the relevant part of the webpage.
         Chose to make it absolute instead, as this would mean users would have to scroll to the start to navigate but made the navigation bar effect.
     </li>
+    <li>
+        Chose to leave the navigation bar alone it is. Made it fixed on larger devices but left it as relative on smaller devices.
+        This was a hard choice but I did choose to do this to save space on the screen and to make sure that users dont accidently navigate around the page with misclicking.
+    </li>
+    <li>
+        Finalised the website with finishing both the layout and information on the overview page. Tried to give a brief but factual paragraph about myself along with some skills and interests.
+    </li>
+    <li>
+        Also linked the bottom links in the contact section to corrisponding documents to help with for if a viewer would like to contact me.
+    </li>
+    <li>
+        Modified the layout of the timeline. On mobile the margin difference was slightly out and needed to be altered to suit the difference of the webpage on mobile. Without the scroll bar the webpage had more space and needed values altering accordingly.
+    </li>
+    <li>
+        Uploaded logos for the education page so that the paragraphs have been split up and matched with a corrisponding image, also changed the Harvester logo to the M&B logo which is the mother brand company name for Harvester.
+        The Harvester logo was not working properly on smaller devices and was not properly scaling to the chosen size.
+    </li>
 </ul>
