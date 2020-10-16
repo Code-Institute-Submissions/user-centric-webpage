@@ -1,8 +1,8 @@
 <h1>User Centric Module - Resume Webpage</h1>
 For this module, I have been instructed to create a webpage that utilises HTML and CSS and creates an interactive and constructive webpage, which works across platforms and devices.
-In this module, you are able to use either a HTML, CSS editor or a bootstrap or another styling grid flow addon. The use of bootstrap is completly optional and use dont have to use any form of grid-flow addon within the development of your website.
+In this module, you are able to use either a HTML, CSS editor or a bootstrap or another styling grid flow addon. The use of bootstrap is completly optional and you dont have to use any form of grid-flow addon within the development of your website.
 This would be to help you during the module and for later on in your development career as layout modifiers or styling sheets are used by several companies to make website development more robust and accessable. Not just that the website is easier to maintain and repair in future reference.
-I had original created a webpage using bootstrap but after a some time creating a website, I began to feel somewhat restricted. Even though these types of languages do allow for cross-platform support they dont offer more of a control on the general overal product and development.
+I had original created a webpage using bootstrap but after some time creating a website, I began to feel somewhat restricted. Even though these types of languages do allow for cross-platform support they dont offer more of a control on the general overal product and development.
 Its like creating a structure that you would then begin to build over using a styling sheet. Its helpful to use these types of languages but means that you would have to create several changes to the way you create the page.
 
 I went for the idea of creating a professional webpage, like a resume website. In this website I would create a place where companies could go to learn about me and be able to show them my abilities as a programmer. I wanted to make sure that I created a website that followed the rules places by the module and follow rules that I apply during development or during planning.
@@ -35,62 +35,62 @@ Along with this rule, I wanted to make a few of my own.
 </ul>
 
 <h2>Initial Consept</h2>
-I would like to create a personal and professional webpage that gives an employers my background and allows for them to be able to access a series of pages which provide information about me as a person, along with my skills and abilities which could benefit a user that accesses and views my sight.
+I would like to create a personal and professional webpage that gives an employers my background and allows for them to be able to access a series of pages which provide information about me as a person, along with my skills and abilities which could benefit a user that accesses and views my site.
 I want to create webpage that is visually effective and doesn't become overly complecated and is minimised and factual.
 In this webpage I want users to be able to access this information across platform, and I want them to be able to view the website in the pre-determind layout which I set using the structure.
 I want the website to be structure so that its like reading a publication or CV, with clear and effective names, titles and text. The information included has to have a specific or general connection to each title.
 The webpages must keep across a topic, and provide enough information to the user to learn about my experience but not too much information so that it becomes overwhelming. Simple but effective layouts must be used to break up information on pages like education and experience so that it is easier to read.
 
 I want a webpage that is not to hard to read and is able to be understood by the user. It must not have redundant or inaffective stratagys to take the users attention but the layout must keep the viewer flowing through the site going from page to page, element to element.
-Want to make sure that the website and any attachted files are also inclusive and can encapsulate not just what I want to create but how to continue to change and effectively modify my website for future devlopment.
-
+I want to make sure that all files and links are included and documents like CV and forms of contact are included for if a user would like to learn more information about me.
 <h2>Development</h2>
 <hr>
-I have changed and modified the README file so that there are two .md files located along side the website to offer insight to the general development choices, purpose and effective illustration of what is required during this module. The other file will be to create a development log of changes that have been done to make sure that the website is maintained and to state why these changes have been compeleted.
+I have changed and modified the README file so that there are two .md files located along side the website to offer insight to the general development choices. I also wanted to show and present the purpose and effective illustrate what is required during this module. The other file will be to create a development log of changes that have been done to make sure that the website is maintained and to state why these changes have been compeleted.
 
 At the beginning I created a workspace on GitPod using the example provided by Code Institute, and made a copy within a local GitPod workspace and began to make and program my webpage.
-I wanted to start by thinking about how the design would flow from page to page, and from inforamtion to information.
+I wanted to start by thinking about how the design would flow.
 I began creating wireframes for two consepts that I wanted to create in my website.
 I original was going to create the website as a generic website layout and begin to alter it and give a custom style to it, but settled for the second option.
-I choice the second option as I felt like during development this would be easier to modify and more versitile. As I wanted to have some form of control over the users information path, I wanted them to read this as an autobiography or book of some form and read it, as they read on the interest may begin to peak and the user would read on.
+I chose the second option as I felt like during development this would be easier to modify and more versitile. As I wanted to have some form of control over the users information path. I wanted them to read this as an autobiography or book of some form and read it. As they read on, their interest may begin to peak and the user would read on.
 On mobile versions of the site I knew that I could make the website begin to funnel the information into a single row instead of having images and text side by side.
-This still ment the user would come to the image and then the overview first and would begin to create the information I have given to summaries what I have to offer.
-Then as they move through the sides, the About or about me page would be about personal life and give them an insight to who I am and how I work.
+This still ment the user would come to the image and then the overview first and then lead to the paragraphs and bullet points of text under neither so that the user is able to read on and continue to learn about what I have to offer.
+Then as they move through the pages, the About or about me page would be about personal life and give them an insight to who I am and how I work.
 The other two pages where for education and experience.
 I wanted these two sites to have a versitile design and a simple ability to be added to in later versions.
 I wanted this because these two websites would always change and the information would begin to build for these two sites. Having the designs and the code layouts begin versitile means that through development in the future the site is easily updated with personal or profressional information.
 
-Whilst working through the flow I would begin by creating a simple but effective CSS style which I label, "hit box and bounds" which referes to the idea of where each of the div containers and other tags will sit on the page and what space they would take up. Allowing for the development of the site to be easier as understanding the size of the elements allowed for an easier customisation.
+Whilst working through the flow I would begin by creating a simple but effective CSS style which I label, "hit box and bounds" which referes to the idea of where each of the div containers and other tags will sit on the page and what space they would take up. Allowing for the development of the site to be easier, as understanding the size of the elements allowed for an easier customisation.
 
 Wireframe 1 - <a>https://wireframe.cc/pro/pp/93b8ebda0383695</a>
 
-This is wireframe one, this was the first layout design. It gave more of a website feel than a webpage. I original wanted this design as later in the development and planning I began to realise the functionality and controlability of this site.
+This is my first wireframe. It gave more of a website feel than a webpage. I original wanted this design, but later in development and planning I began to realise the functionality and controllability of this site.
 I noticed that navigation on this site was easier than on site two, I also came to the idea of creating a nav bar that would possibly be on the left hand side of the website. After testing this on smaller devices it wasn't helpful for mobile users and took up too much screen space.
-Also when simplifying the website and modifying it for mobile devices, I noticed that It different began to have flow as I originaly intended and in fact made the sight feel enclosed and less open.
-I enjoyed the overal ability to customise this site more than the second frame but as functionality across different devices came around I thought that this design would be more of a hinderance than a benefit.
+Also when simplifying the website and modifying it for mobile devices, I noticed that It didnt begin to have flow as I originaly intended and in fact made the sight feel too open and allowed for the user to begin to go from page to page without reading into the text and learn who I am.
+I enjoyed the overal ability to customise this site more than the second frame but as functionality across different devices came around I thought that this design would be more of a hinderance than a benefit. As you would create this site on smaller devices
+it would mean that the user is made to read the information in a more linear fasion as the navigation bar would sit on the left hand side. I want to make sure that the experience isnt extremely different depending on the device the user may use. I noticed that it felt like the screen was overly filled and was more offensive to the eyes. I wanted the webpage to have more of a simplified feel but on the smaller devices this didn't feel possible.
 
-#INSERT
+Wireframe 2 - <a>https://wireframe.cc/pro/pp/441f29bf9384111</a>
 
-This is wireframe two, this sight had less of a navigation ability than the other website but allowed for the website to look more like a publication or book. This is what I intended to create as its more profressional and gives more of a simple but yet effective design.
-I felt like creating a webpage, which contained information would be hard to do but allows for you to present yourself in a bigger picture and allows for you to included more information and allow for the user to be able to learn more about the developer.
-I also felt like this design allowed for future development and was a perfect design for a layout that can be changed and modified further through development. This two pages, education and experience needed to be updateable and have a robust and controllable part of the site.
-As this unit is about providing yourself in a strong and professional lighting I chose to create the webpage from the section wireframe.
-I felt like this design was strong and highly maintainable.
+This is wireframe two, this site had less of a navigation ability than the other website but allowed for the website to look more like a publication or book. This is what I intended to create as its more profressional and gives more of a simple but yet effective design.
+I felt like creating a webpage, which had a layout that was intended to show and present a beginning overview of factual information about me in both a personal and professional sense. I then wanted to allow the user to be able to then use the webpage to begin to search for more information about me and about where I've worked and the subjects I have learned.
+I also felt like this design allowed for future development and was a perfect design for a layout that can be changed and modified further through development. These two pages, education and experience needed to be updateable and be a robust and controllable part of the site. This is the main section on which a user would come for professional information and these two pages would need to regularily kept up to date.
+As this unit is about providing yourself in a strong and professional lighting I chose to create the webpage from this chosen wireframe.
+I felt like this design was strong and highly maintainable. It did have issues with the navigation and these issues continued. It is hard to make this wireframe easily accessable and visible on mobile but I chose to modify the navigation bar so that on mobile device each item has its own line for space but was reletively positioned at the top of the site.
 
 <h2>During Development</h2>
 <hr>
 
-After deciding the design to chose I began by creating the webpage.
-I initially placed the navigation bar at the top of the webpage so that the user can see the structure of the sight, and also be able to understand the flow on which the sight must take.
-I created the names of each of the tags to then understand which pages are to come next in the site and what they should be called and what they should discuss. Following this I laid out the website matching a current theme and began with filling the webpages and getting the structure right.
-After I had found how I would like the structure I then began to replace the fill-in text with text corrisponding with each webpage.
+After deciding the design to select, I began by creating the webpage.
+I initially placed the navigation bar at the top of the webpage so that the user can see the structure of the site, and also be able to understand what each of the pages are to be labelled and try to begin to make the content of the pages relevant to the main title on each page.
+I created the names of each of the tags to then understand which pages are to come next in the site and what they should be called and what they should discuss. Following this, I laid out the website matching a current theme and began with filling the webpages and getting the structure right.
+After I had found how I would like the structure, I then began to replace the fill-in text with text corrisponding with each webpage.
 Whilst during filling in the webpages I would begin to alter and set themes and styles of the webpage.
 I had original gone for a strong contrast as my design was as if the user was to be on a word document, the font was to be a strong, easily readable font and not too hard on the eyes, also including alternatives to chosen fonts.
 I had chosen a set font to be the font style that I wanted, through most of development. I wanted a font style with alternatives which are easy to read and allows for users with visual differences to be able to see the text.
 
 Each of the websites where labelled with pre-determind titles for each page which was discussed during development, so that the site covers both the professional insite and a personal insite.
-The titles are to guide the information which is included in each page, and allow for the information to be relative and give the user an insite to what the webpage is about. With each page being set around the development allows for the structure to stay true to the design.
-
+The titles are to guide the information which is included in each page, and allow for the information to be relative and give the user an insite to what the webpage is about. Knowing the purpose of each page and having a topic to dicuss this meant that the structure of the website would stay true to the original design. Whilst the information would vary around the webpages it would continue to follow and fit close to the wireframe that I have created.
+~~#####~~
 The color contrast, simplisity but professional layout means that the information is fed to the user and that there is a nice gentle layout to guide the user but not distract them. This makes sure that the user is taking in the information, the information is broken down into deep paragraphs which touch upon what the page is trying to say.
 
 This layout stays true to the original design and keeps the form and layout even when on mobile or tablet.
