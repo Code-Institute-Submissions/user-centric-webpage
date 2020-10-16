@@ -18,6 +18,14 @@ These rules help me create an idea and encapsulate a creation that holds true to
 For this module,  you must try to create an interactive site using CSS or grid-styling sheet or flow language to be able to make this universal site.
 Along with this rule, I wanted to make a few of my own.
 
+The website can be accessed on a link which is created and hosted by GitHub which is where the website is stored and accessed.
+<a href="https://roy-finch.github.io/user-centric-webpage/">Active Resume Website</a>
+For the source code to the webpage it can be accessed on the GitHub index.html file.
+Source Code (index.html) - <a href="index.html">index</a>
+
+There is a seperate file which talks about development of the website and any issues faced during its development. This log is updated with a general guide of how the website was created or any features that are created and what issues I have faced.
+
+Update Log - <a href="update_log.md">update_log</a>
 <ul>
     <li>
         I wanted to begin by creating the general structure of the site. This included planning how the styling would behave and how things like navigation would flow.
@@ -61,7 +69,7 @@ I wanted this because these two websites would always change and the information
 
 Whilst working through the flow I would begin by creating a simple but effective CSS style which I label, "hit box and bounds" which referes to the idea of where each of the div containers and other tags will sit on the page and what space they would take up. Allowing for the development of the site to be easier, as understanding the size of the elements allowed for an easier customisation.
 
-Wireframe 1 - <a>https://wireframe.cc/pro/pp/93b8ebda0383695</a>
+<a href="https://wireframe.cc/pro/pp/93b8ebda0383695">Wireframe 1</a>
 
 This is my first wireframe. It gave more of a website feel than a webpage. I original wanted this design, but later in development and planning I began to realise the functionality and controllability of this site.
 I noticed that navigation on this site was easier than on site two, I also came to the idea of creating a nav bar that would possibly be on the left hand side of the website. After testing this on smaller devices it wasn't helpful for mobile users and took up too much screen space.
@@ -69,7 +77,7 @@ Also when simplifying the website and modifying it for mobile devices, I noticed
 I enjoyed the overal ability to customise this site more than the second frame but as functionality across different devices came around I thought that this design would be more of a hinderance than a benefit. As you would create this site on smaller devices
 it would mean that the user is made to read the information in a more linear fasion as the navigation bar would sit on the left hand side. I want to make sure that the experience isnt extremely different depending on the device the user may use. I noticed that it felt like the screen was overly filled and was more offensive to the eyes. I wanted the webpage to have more of a simplified feel but on the smaller devices this didn't feel possible.
 
-Wireframe 2 - <a>https://wireframe.cc/pro/pp/441f29bf9384111</a>
+<a href="https://wireframe.cc/pro/pp/441f29bf9384111">Wireframe 2</a>
 
 This is wireframe two, this site had less of a navigation ability than the other website but allowed for the website to look more like a publication or book. This is what I intended to create as its more profressional and gives more of a simple but yet effective design.
 I felt like creating a webpage, which had a layout that was intended to show and present a beginning overview of factual information about me in both a personal and professional sense. I then wanted to allow the user to be able to then use the webpage to begin to search for more information about me and about where I've worked and the subjects I have learned.
@@ -120,10 +128,10 @@ During development I have tried to stick to the structure that I initially creat
 <h2>Bibliography</h2>
 
 This section will contain all of the websites and pages that I have visited to be able to complete my User Centric Model. I use these websites to research properties and adjectives. To make sure I am using the correct words whilst programming.
-W3Schools - <a>https://www.w3schools.com/default.asp</a>
+<a href="https://www.w3schools.com/default.asp">W3Schools</a>
 <ul>
     <li>
-        W3Schools HTML Module - <a>https://www.w3schools.com/html/default.asp</a>. Revisited HTML using this learning platform. I managed to learn what was needed from this webpage to be able to program the html on my webpage.
+        <a href="https://www.w3schools.com/html/default.asp">W3Schools HTML Module</a>. Revisited HTML using this learning platform. I managed to learn what was needed from this webpage to be able to program the html on my webpage.
     </li>
     <li>
         W3Schools CSS Module - <a>https://www.w3schools.com/css/default.asp</a>. Revisted CSS using this learning platform, I was able to understand and learn how to change my corn html to create and produce my website with its custom theme.
