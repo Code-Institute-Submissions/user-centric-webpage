@@ -163,7 +163,7 @@ a:hover {
     }
     li {
         margin: 30px;
-        margin-left: -28px;
+        margin-left: -30px;
     }
     h3 {
         text-align: center;
@@ -195,7 +195,7 @@ a:hover {
     }
     .img-res {
         width: 25vw;
-        height: auto;
+        height: 30vh;
     }
     .main-con {
         height: auto;
