@@ -43,6 +43,8 @@ Update Log - <a href="update_log.md">update_log</a>
 </ul>
 
 <h2>Initial Consept</h2>
+<hr>
+
 I would like to create a personal and professional webpage that gives an employers my background and allows for them to be able to access a series of pages which provide information about me as a person, along with my skills and abilities which could benefit a user that accesses and views my site.
 I want to create webpage that is visually effective and doesn't become overly complecated and is minimised and factual.
 In this webpage I want users to be able to access this information across platform, and I want them to be able to view the website in the pre-determind layout which I set using the structure.
@@ -51,8 +53,10 @@ The webpages must keep across a topic, and provide enough information to the use
 
 I want a webpage that is not to hard to read and is able to be understood by the user. It must not have redundant or inaffective stratagys to take the users attention but the layout must keep the viewer flowing through the site going from page to page, element to element.
 I want to make sure that all files and links are included and documents like CV and forms of contact are included for if a user would like to learn more information about me.
+
 <h2>Development</h2>
 <hr>
+
 I have changed and modified the README file so that there are two .md files located along side the website to offer insight to the general development choices. I also wanted to show and present the purpose and effective illustrate what is required during this module. The other file will be to create a development log of changes that have been done to make sure that the website is maintained and to state why these changes have been compeleted.
 
 At the beginning I created a workspace on GitPod using the example provided by Code Institute, and made a copy within a local GitPod workspace and began to make and program my webpage.
@@ -98,7 +102,7 @@ I had chosen a set font to be the font style that I wanted, through most of deve
 
 Each of the websites where labelled with pre-determind titles for each page which was discussed during development, so that the site covers both the professional insite and a personal insite.
 The titles are to guide the information which is included in each page, and allow for the information to be relative and give the user an insite to what the webpage is about. Knowing the purpose of each page and having a topic to dicuss this meant that the structure of the website would stay true to the original design. Whilst the information would vary around the webpages it would continue to follow and fit close to the wireframe that I have created.
-~~#####~~
+
 The color contrast, simplisity but professional layout means that the information is fed to the user and that there is a nice gentle layout to guide the user but not distract them. This makes sure that the user is taking in the information, the information is broken down into deep paragraphs which touch upon what the page is trying to say.
 
 This layout stays true to the original design and keeps the form and layout even when on mobile or tablet.
@@ -109,8 +113,6 @@ Included a profile picture for the beginning of the website and also some images
 I wanted to maintain and keep a sensible flow throughtout the webpage no matter how the website is viewed. This is why I continued to test every feature across devices and search engines. With the choices of the titles of each page I believe that the user is able to understand what I have began to illustrate through my webpage.
 
 Through development at the beginning I used pre-marked text to be able to fill in the website space for each of the pages to get the size and layout of each element before filling the pages with relevant and specific information.
-
-#INSERT
 
 Throughout the index.html file, I have kept consistancies in naming conventions and layouts across the webpage. I have made the structure well spaced and progressive so that the HTML code can be easily read and maintained.
 The structure of the file layout, is designed so that the webpage is understandable and simplified. The image assets are located inside a folder located within the parent of the index file, along with a CSS file for future CSS external files. Naming conventions across these different files are in lower-case and without spacing to allow for compatibility and universatility.
@@ -125,6 +127,8 @@ Testing is maintained throughout production of the website to make sure that it 
 
 During development I have tried to stick to the structure that I initially created along with the purpose and aims of the site in mind.
 
+
+When finalizing the HTML or CSS I used W3schools to make sure that the two different files are correct and have 
 <h2>Bibliography</h2>
 
 This section will contain all of the websites and pages that I have visited to be able to complete my User Centric Model. I use these websites to research properties and adjectives. To make sure I am using the correct words whilst programming.
@@ -134,34 +138,34 @@ This section will contain all of the websites and pages that I have visited to b
         <a href="https://www.w3schools.com/html/default.asp">W3Schools HTML Module</a>. Revisited HTML using this learning platform. I managed to learn what was needed from this webpage to be able to program the html on my webpage.
     </li>
     <li>
-        W3Schools CSS Module - <a>https://www.w3schools.com/css/default.asp</a>. Revisted CSS using this learning platform, I was able to understand and learn how to change my corn html to create and produce my website with its custom theme.
+        <a href="https://www.w3schools.com/css/default.asp">W3Schools CSS Module</a>. Revisted CSS using this learning platform, I was able to understand and learn how to change my corn html to create and produce my website with its custom theme.
     </li>
     <li>
-        W3Schools HTML Color Picker - <a>https://www.w3schools.com/colors/colors_picker.asp</a>. This was used to create and choose the colours that have been chosen on my webpage.
+        <a href="https://www.w3schools.com/colors/colors_picker.asp">W3Schools HTML Color Picker</a>. This was used to create and choose the colours that have been chosen on my webpage.
     </li>
 </ul>
-GitHub - <a>https://github.com/</a>. This is where I stored my webpage and used this and GitPod to be able to develop my website.
+<a href="https://github.com/">GitHub</a>. This is where I stored my webpage and used this and GitPod to be able to develop my website.
 
-GitPod - <a>https://gitpod.io/workspaces/</a>. This was the main workspace I used to be able to create my webpage and be able to upload it to my local repository on the GitHub repsoitories.
+<a href="https://gitpod.io/workspaces/">GitPod</a>. This was the main workspace I used to be able to create my webpage and be able to upload it to my local repository on the GitHub repsoitories.
 
-Code Insisute GitPod Full Template - <a>https://github.com/Code-Institute-Org/gitpod-full-template</a>. I used this as the beginning to my GitPod workspace to be able to begin development on my webpage. I began by accessing this repository and began by creating local repository using this as the fundimental and then began to develop onto this.
+<a href="https://github.com/Code-Institute-Org/gitpod-full-template">Code Insisute GitPod Full Template</a>. I used this as the beginning to my GitPod workspace to be able to begin development on my webpage. I began by accessing this repository and began by creating local repository using this as the fundimental and then began to develop onto this.
 
-Code Institute Sample ReadMe - <a>https://github.com/Code-Institute-Solutions/SampleREADME</a>. Read this to learn what is required from me when creating the webpage for this module.
+<a href="https://github.com/Code-Institute-Solutions/SampleREADME">Code Institute Sample ReadMe</a>. Read this to learn what is required from me when creating the webpage for this module.
 
 Code Institute Learning Platform - <a></a>. Visited the module on the learning website to be able to learn what will be required from me during this module. Also completed this module on the learning platform to be able to complete the module on the webpage.
 
 Images from Google
 <ul>
     <li>
-        Hope Academy Logo - <a>http://www.hopeacademy.org.uk/232/announcements/announcement/210/head-of-school</a>.
+        <a href="http://www.hopeacademy.org.uk/232/announcements/announcement/210/head-of-school">Hope Academy Logo</a>.
     </li>
     <li>
-        Hope Academy Sixth Form Logo - <a>https://twitter.com/hope6thform</a>.
+        <a href="https://twitter.com/hope6thform">Hope Academy Sixth Form Logo</a>.
     </li>
     <li>
-        Harvester Logo - <a>https://www.harvester.co.uk/</a>.
+        <a href="https://www.harvester.co.uk/">Harvester Logo</a>.
     </li>
     <li>
-        Code Institute logo - <a>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningpeople.com%2Fuk%2Fcourses%2Faccreditor%2Fcode-institute%2F&psig=AOvVaw10PqQT7Uogz2aRNIeVCXL1&ust=1602441876612000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCLiEj6zXquwCFQAAAAAdAAAAABAD</a>.
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learningpeople.com%2Fuk%2Fcourses%2Faccreditor%2Fcode-institute%2F&psig=AOvVaw10PqQT7Uogz2aRNIeVCXL1&ust=1602441876612000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCLiEj6zXquwCFQAAAAAdAAAAABAD">Code Institute logo</a>.
     </li>
 </ul>
