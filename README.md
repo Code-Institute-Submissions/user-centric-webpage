@@ -89,6 +89,14 @@ I also felt like this design allowed for future development and was a perfect de
 As this unit is about providing yourself in a strong and professional lighting I chose to create the webpage from this chosen wireframe.
 I felt like this design was strong and highly maintainable. It did have issues with the navigation and these issues continued. It is hard to make this wireframe easily accessable and visible on mobile but I chose to modify the navigation bar so that on mobile device each item has its own line for space but was reletively positioned at the top of the site.
 
+I have used two validators to make sure that the webpage works correctly and is laid out correctly.
+I used the HTML validator provided by W3C to make sure that the HTML document works correctly.
+<a href="https://validator.w3.org/">HTML Validator</a>
+The results from the HTML validation. <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Froy-finch.github.io%2Fuser-centric-webpage%2F">Results</a>
+I used a CSS validtor to make sure that there are no issue with my CSS. I used a CSS validator provided by W3C.
+<a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
+The results from the CSS validation. <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froy-finch.github.io%2Fuser-centric-webpage%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Results</a>
+
 <h2>During Development</h2>
 <hr>
 

@@ -1,0 +1,293 @@
+/* There are two media fields included within this styling this is done
+to make sure that smaller devices with a smalelr screen size can
+properly use and view the webpage, and allows for the webpage
+to present the intended idea and purpose. */
+
+/* I want to view the CSS and try to find
+any repetative code that can be simplified. 
+This will be the general and global submit
+of CSS, these will be items that remain
+the same across platforms and will allow
+for the code to be simplified.
+
+This section of CSS is generalised and appears several times on both media fields.
+To simply the CSS I have removed these lines and placed them outside of the media fields to
+make them effect the webpage no matter what difference.
+The media fields now have information that customise the design based on the actual differences
+between the two versions of the website.*/
+.main-div {
+    top: 0px;
+}
+.container {
+    margin: 5px;
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding: 25px;
+    height: auto;
+    box-shadow: 5px 5px #cccccc;
+}
+.round-border {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.footer-link {
+    word-spacing: 2px;
+    text-align: center;
+}
+.no-sides {
+    border: 1px solid black;
+    border-right: 0px;
+    border-left: 0px;
+}
+.t-line {
+    border-left: 1px solid black;
+    margin-left: 20px;
+}
+body {
+    background-color: #d9d9d9;
+    font-family: "Trebuchet MS", Helvetica, Sans-serif;
+}
+a {
+    color: black;
+}
+hr {
+    width:98%;
+}
+a:hover {
+    background-color: #d9d9d9;
+}
+
+@media (max-width: 750px) {
+    /* CSS is coded using a mixture of set classes which define general behaviour
+    within all corrisponding relatives. Along with set CSS to define
+    individual behaves throughout the webpage. 
+    As I am programming I begin to notice items that can be grouped
+    so I like to group behavious classes like containers, which give
+    set corrisponding attributes similar to CSS styling sheets.
+    I have created the style to suit what my purpose and idea is,
+    thats to create a webpage which is more like an active word
+    editor to give a professional CV vibe. As thought the CV
+    is on an active website.*/
+    .nav-tab {
+        text-decoration: none;
+        padding: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        width: 100%;
+        float: left;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .contact-tab {
+        text-decoration: none;
+        padding: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        width: 100%;
+        float: left;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .nav-bar {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 5px 5px #cccccc;
+    }
+    .img-res {
+        width: 75vw;
+        height: 30vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-con {
+        height: auto;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .circle-img {
+        width: 75vw;
+        height: auto;
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    .round-img {
+        width: 75vw;
+        height: auto;
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    .square-img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+    }
+    .alt-w-33 {
+        visibility: visible;
+        display: inline;
+        width: 100%;
+    }
+    .alt-w-100 {
+        visibility: visible;
+        display: inline;
+        width: 100%;
+    }
+    .tra-w-33 {
+        visibility: hidden;
+        display: none;
+        width: 0%;
+    }
+    .tra-w-66 {
+        visibility: hidden;
+        display: none;
+        width: 0%;
+    }
+    .tra {
+        visibility: hidden;
+        display: none;
+    }
+    li {
+        margin: 30px;
+        margin-left: -28px;
+    }
+    h3 {
+        text-align: center;
+    }
+}
+@media (min-width: 750px) {
+    .nav-tab {
+        text-decoration: none;
+        padding: 4px;
+        margin: 4px;
+        float: left;
+        background-color: #ffffff;
+    }
+    .contact-tab {
+        text-decoration: none;
+        padding: 4px;
+        margin: 4px;
+        float: right;
+        background-color: #ffffff;
+    }
+    .nav-bar {
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 5px 5px #cccccc;
+    }
+    .img-res {
+        width: 25vw;
+        height: auto;
+    }
+    .main-con {
+        height: auto;
+        margin-left: 5px;
+        margin-top: 45px;
+    }
+    .circle-img {
+        width: 25vw;
+        height: auto;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    .round-img {
+        width: 25vw;
+        height: auto;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    .square-img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+    }
+    .overview p {
+        margin: 5px;
+    }
+    .table {
+        display: table;
+    }
+    .row {
+        display: table-row;
+    }
+    .cell {
+        display: table-cell;
+        float: left;
+    }
+    .w-33 {
+        width: 33%;
+    }
+    .w-50 {
+        width: 49%;
+    }
+    .w-66 {
+        width: 66%;
+    }
+    .w-100 {
+        width: 100%;
+    }
+    /* These are class controlls to be able to modify and alter the display
+    for the two different media files, these set the corrosponding
+    elements to set behaviours depending on the size of the device.
+    Classes stand for alt, alternative versions of these elements, which
+    are set to false and inactive during bigger devices and true on
+    smaller device.
+    On the other hand, the tra, which is traditional classess
+    set elements to have true behaviours whilst viewed on a larger device
+    but are set to have false attributes and behaviours on smaller devices. */
+    .alt-w-33 {
+        visibility: hidden;
+        width: 0%;
+        display: none;
+    }
+    .alt-w-100 {
+        visibility: hidden;
+        width: 0%;
+        display: none;
+    }
+    .tra-w-33 {
+        visibility: visible;
+        width: 33%;
+        display: inline;
+    }
+    .tra-w-66 {
+        visibility: visible;
+        width: 66%;
+        display: inline;
+    }
+    .tra {
+        visibility: visible;
+        display: inline;
+    }
+    /* I set the individual elements afterwards, as I notice that I
+    require a CSS attribute to customise behaviours within a paticular
+    set of elements. */
+    li {
+        margin: 30px;
+        margin-left: -26px;
+    }
+}
