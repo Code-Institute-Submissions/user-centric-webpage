@@ -89,14 +89,6 @@ I also felt like this design allowed for future development and was a perfect de
 As this unit is about providing yourself in a strong and professional lighting I chose to create the webpage from this chosen wireframe.
 I felt like this design was strong and highly maintainable. It did have issues with the navigation and these issues continued. It is hard to make this wireframe easily accessable and visible on mobile but I chose to modify the navigation bar so that on mobile device each item has its own line for space but was reletively positioned at the top of the site.
 
-I have used two validators to make sure that the webpage works correctly and is laid out correctly.
-I used the HTML validator provided by W3C to make sure that the HTML document works correctly.
-<a href="https://validator.w3.org/">HTML Validator</a>
-The results from the HTML validation. <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Froy-finch.github.io%2Fuser-centric-webpage%2F">Results</a>
-I used a CSS validtor to make sure that there are no issue with my CSS. I used a CSS validator provided by W3C.
-<a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
-The results from the CSS validation. <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froy-finch.github.io%2Fuser-centric-webpage%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Results</a>
-
 <h2>During Development</h2>
 <hr>
 
@@ -137,7 +129,27 @@ During development I have tried to stick to the structure that I initially creat
 
 
 When finalizing the HTML or CSS I used W3schools to make sure that the two different files are correct and have 
+
+<h2>Finalizing</h2>
+<hr>
+
+I have used two validators to make sure that the webpage works correctly and is laid out correctly.
+I used the HTML validator provided by W3C to make sure that the HTML document works correctly.
+<a href="https://validator.w3.org/">HTML Validator</a>
+The results from the HTML validation. <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Froy-finch.github.io%2Fuser-centric-webpage%2F">Results</a>
+I used a CSS validtor to make sure that there are no issue with my CSS. I used a CSS validator provided by W3C.
+<a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
+The results from the CSS validation. <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froy-finch.github.io%2Fuser-centric-webpage%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Results</a>
+
+Whilst finalizing the webpage not only did I use the validators but also used google and the live webpage. I used the google features to modify and view the source code and began by editing some of the issues with the webpage and tried to make sure that the differences are corrected.
+I also used my mobile phone and accessed the active webpage to make sure that the webpage behaves properly.
+I noticed that the webpage didnt display properly on the experience page, and the time-line bullet points didn't clip properly.
+Began to keep altering the negative alteration. Also in the list you can not use br within lists so I changed my list item to have a margin different of 30px and then also made the left of the margin negative so that the listed item clipped.
+Then once I did that I also had to change a CSS style which I accidently applied to the nav-bar. I applied changes to the font-family incorrectly and due to this is didnt pass the test the first time.
+Once I fixed that, it was the last issue that the validator presented to me, and once that was done, the validation was compeleted. The website worked correctly and I finished it by storing the CSS externally and creating an access link on the HTML.
+
 <h2>Bibliography</h2>
+<hr>
 
 This section will contain all of the websites and pages that I have visited to be able to complete my User Centric Model. I use these websites to research properties and adjectives. To make sure I am using the correct words whilst programming.
 <a href="https://www.w3schools.com/default.asp">W3Schools</a>
