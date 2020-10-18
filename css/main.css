@@ -161,9 +161,9 @@ a:hover {
         visibility: hidden;
         display: none;
     }
-    li {
+    .t-line > li {
         margin: 30px;
-        margin-left: -30px;
+        margin-left: -32px;
     }
     h3 {
         text-align: center;
@@ -286,7 +286,7 @@ a:hover {
     /* I set the individual elements afterwards, as I notice that I
     require a CSS attribute to customise behaviours within a paticular
     set of elements. */
-    li {
+    .t-line > li {
         margin: 30px;
         margin-left: -26px;
     }
