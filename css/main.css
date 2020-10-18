@@ -110,7 +110,7 @@ a:hover {
     }
     .circle-img {
         width: 75vw;
-        height: auto;
+        height: 75vw;
         display: inline-block;
         margin-right: auto;
         margin-left: auto;
@@ -204,7 +204,7 @@ a:hover {
     }
     .circle-img {
         width: 25vw;
-        height: auto;
+        height: 25vw;
         margin: 5px;
         padding: 5px;
         border: 1px solid black;
