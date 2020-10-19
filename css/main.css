@@ -124,13 +124,9 @@ a:hover {
         box-shadow: 5px 5px #cccccc;
     }
     aside {
-        float: none;
-        width: auto;
         text-align: center;
     }
     figure {
-        float: none;
-        width: 75%;
         text-align: center;
     }
     main {
