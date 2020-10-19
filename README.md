@@ -158,6 +158,16 @@ Once completed I always create and alter my layouts to semantic as it helps to b
 I then began to search through the webpage and looked for anywhere were there was redundant or excess code. I always like to do this with my programs as this allows for an extremely refined and high quality result.
 It is easy to create and display your idea but another one is to conceptialise it and allow for that idea to become stronger and more agile and smarter.
 
+Once I had finished the webpage and changed it to a semantic HTML layout, I had ran them back through the validator to make sure that the CSS and the HTML are both correct.
+I wanted to make sure that they are both laid out correctly and also presented in a very well structured manor.
+
+The results from the HTML tested correctly and I had created a website that offered no warnings or errors.
+
+The results from the CSS validator showed that there was no issues with my CSS files.
+
+After altering a few issues and other little things I am now able to say that the webpage has got the correct layout and structure as I initiallty intended.
+Even though the color scheme is basic, I am intending for the webpage to focus on me and the information I would like to present.
+
 <h2>Bibliography</h2>
 <hr>
 
