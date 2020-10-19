@@ -1,251 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Created and initialised the HTML file with the emmit commant "!"
-     and began the document from a basic but fundemental stage of development.
-     Code included below allow for the websites and devices to have proper
-     communication and allow for the viewers device to be able to understand
-     what is required for this site. Meta data for exporting and 
-     using users device scales and sizes. Along with a set meta data for 
-     what characters can be used in the website, example Unicode. 
-     Title which is relevant to the website and purpose.-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roy's Resume Webpage</title>
 
-    <!-- This is my styling section, this is temporary,
-    to allow for easier customisation of the webpages. Once completed
-    I will store the CSS seperately, -->
-
-    <!-- I create a link to an external CSS sheet that will relocate my CSS to a seperate file.
-    I start by programming and altering my CSS within the same file as the HTML and
-    then relocate the CSS to a seperate file once the website has been checked and
-    completed. -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <!-- I begin my HTML with a set main-div or main container,
-    to be able to group all items together, when creating code and models.
-    Grouping is a very useful idea as you can then modify attribute throughout
-    the following children within the parent, or you can also changed
-    the layout or attributes of the main container to effect how the following
-    items behave.
-    Each of the sections have naming conventions relevant to the actual code,
-    these are just simplified names to state the items purpose. -->
-    <div class="main-div">
-        <div class="nav-bar"> <!-- nav-bar, is the parent of the navigation bar -->
-            <!-- nav-tab, is the child entities of the navigation bar
-            these are the corrisponding tabs on the webpage and are all part of the same
-            grouped CSS class to give them all the same set theme across the nav-bar.
-            The Contact tab, has a different set of class attributes for when the device
-            is either viewed on smaller or larger devices, as it floats to the right
-            normally on larger devices it begins to center on mobile or smaller devices. -->
+    <main id="main">
+        <nav>
             <a class="nav-tab" href="#overview">Overview</a>
             <a class="nav-tab" href="#about-me">About Me</a>
             <a class="nav-tab" href="#experience">Experience</a>
             <a class="nav-tab" href="#education">Education</a>
             <a class="nav-tab contact-tab" href="#contact">Contact</a>
-        </div>
+        </nav>
 
-            <!-- <div class="mini-nav">
-                <a class="mini-tab" href="#overview">Overview</a>
-                <a class="mini-tab" href="#about-me">About Me</a>
-                <a class="mini-tab" href="#experience">Experience</a>
-                <a class="mini-tab" href="#education">Education</a>
-                <a class="mini-tab" href="#contact">Contact</a>
-            </div> -->
-
-        <!-- main-con is relevent to a parent class that has the main body of the HTML which
-        includes all text but doesn't include the navigation bar. -->
-        <div class="main-con">
-            <!-- Each container has set id for the navigation tabs to connect
-            and take the user to each part. the container attribute
-            which is seen across the workspace sets the general border,
-            shadow, margin and padding to keep a set style and theme. -->
-            <div id="overview" class="container">
-                <!-- Structure of each page is as follows, there is a set title, then
-                a div set table, with a div set row and then followed with a div set
-                cell. This is to create a table within CSS so that on smaller devices the
-                attributes can be lost and effectively modified to change behaviours on smaller
-                devices. -->
+        <main id="sub-main">
+            <section id="overview" class="container">
                 <h3>Overview</h3> <hr>
-                <div class="table">
-                    <div class="row">
-                        <div class="cell w-33">
-                            <!-- circle-img means a circle image, which is similar to the style
-                            which I am going for on the webpage, this has been set as a class
-                            but is redundantly used only once, so can be specifically applied to this
-                            image but I have left the option for the image class to be more
-                            versitile for other attributes in this document. -->
-                            <img class="circle-img" src="image/selfie.jpg" alt="Profile Picture"/>
-                        </div>
-                        <!-- I have set another example of the tra, and alt, classes
-                        as its used within these tables to simply the layout on smaller
-                        devices. -->
-                        <div class="cell w-66">
-                            <p>For my entire life I have loved to learn and complete projects that allow for me to be able to express my creative side. I have spent most of my time learning about technology and games and have spent countless hours on learning how to repair different varieties of tech and also create new and interesting projects.
-                            I have spent years teaching myself how to program using different online help resources and also by producing projects that would test my knowledge which I would gain over time. I love to create and design things in a very innovative way and make each project or creation unique. I like to go steps beyond and creating things that are interesting and other flexibility.</p>
-                            <div class="tra">
-                                <p>I have developed my knowledge through different subjects and courses within school to be able to support and accuratly back up what I know. I wanted to be able to have levels within subjects to be able to present and show that I am able produce and create projects of different types.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cell w-50">
-                            <h4>Skills</h4>
-                            <ul>
-                                <li>
-                                    <p>Able to deal with situations no matter how stressful they may get. Deal with stressful situations easily, and doesn't effect the job.</p>
-                                </li>
-                                <li>
-                                    <p>Stuborn and always like to get a job done in time. Like to make sure a job is done once started and keep trying.</p>
-                                </li>
-                                <li>
-                                    <p>Great at planning and designing the project from the beginning. Like to see the project to its final moment and encapsulate the project in mind.</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="cell w-50">
-                            <h4>Interests</h4>
-                            <ul>
-                                <li>
-                                    <p>Love to learn about new and interesting things and like to play and mess about with technology and games.</p>
-                                </li>
-                                <li>
-                                    <p>Self-taugh my computing skills and learned and devloped my knowledge through experience and progression over time.</p>
-                                </li>
-                                <li>
-                                    <p>Love to create and design interesting projects that are both challenging and also have an outlet for creativity.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="about-me" class="container">
-                <!-- Simple layout on the about me page as its not really professional and more
-                personal. I made this page more of a set things which leads from the 
-                overview so that the user gets more information if they would like to
-                learn more "about me". -->
+                <aside id="pp-aside">
+                    <img class="circle-img" src="image/selfie.jpg" alt="Profile Picture"/>
+                </aside>
+                <p>For my entire life I have loved to learn and complete projects that allow for me to be able to express my creative side. I have spent most of my time learning about technology and games and have spent countless hours on learning how to repair different varieties of tech and also create new and interesting projects. I have spent years teaching myself how to program using different online help resources and also by producing projects that would test my knowledge which I would gain over time. I love to create and design things in a very innovative way and make each project or creation unique. I like to go steps beyond and creating things that are interesting and other flexibility.</p>
+                <details>
+                    <summary>Extra Information</summary>
+                    <p>I have developed my knowledge through different subjects and courses within school to be able to support and accuratly back up what I know. I wanted to be able to have levels within subjects to be able to present and show that I am able produce and create projects of different types.</p>
+                </details>
+                <section>
+                    <h4>Skills</h4>
+                    <ul>
+                        <li>
+                            <p>Able to deal with situations no matter how stressful they may get. Deal with stressful situations easily, and doesn't effect the job.</p>
+                        </li>
+                        <li>
+                            <p>Stuborn and always like to get a job done in time. Like to make sure a job is done once started and keep trying.</p>
+                        </li>
+                        <li>
+                            <p>Great at planning and designing the project from the beginning. Like to see the project to its final moment and encapsulate the project in mind.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Interests</h4>
+                    <ul>
+                        <li>
+                            <p>Love to learn about new and interesting things and like to play and mess about with technology and games.</p>
+                        </li>
+                        <li>
+                            <p>Self-taugh my computing skills and learned and devloped my knowledge through experience and progression over time.</p>
+                        </li>
+                        <li>
+                            <p>Love to create and design interesting projects that are both challenging and also have an outlet for creativity.</p>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section id="about-me" class="container">
                 <h3>About Me</h3> <hr>
-                <div class="table">
-                    <div class="row">
-                        <div class="cell w-100">
-                            <p>I love to learn and create new and interesting things. I am always progressive and always wanting to learn new things. Since I was young I have always been interested in technology, consoles and devices. I began to learn about programming at a young age, and would learn from different medias and online forms to increase my knowledge to use different langauges. Original began with the use of languages like Lua, and then other languages like Java, C++ and HTML. I would create simple projects within each of these languages to be able to try and improve my ability with these languages. These projects would present a range of functionality and would be made to expand my knowledge of the languages as far as I can. Since then I have began to develop my skills even further. I began within my extended studies doing a computing course, which allowed for me to be able to strengthen my knowledge of computers and programming languages. Then with the knowledge I earned from this course I also began to create and repair different consoles and devices. I would create a series of computer towers to be able to backup the knowledge I learned and actual use the knowledge within a practicle example.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cell w-100">
-                            <p>Since then I have continued to increase my knowledge but during this time I would also work my time within two different industries, catering, and warehouse. These jobs would be taken for a mixture of reasons either financial or to better my knowledge. I am now a qualified chef, after completing an apprenticeship. I love to eat and try new foods, so I got a qualification so I can understand how to run a kitchen and also be able to see how a kitchen functions and whats needed to keep the kitchen functioning. Whilst I worked in the kitchen, i also did a series of jobs that would be stock monitoring, control and management, which where given to me due to overly ciritical thinking about maintaing the storage zones. I also learned about how to keep to professional standards and cook on a frontline station-based kitchen, and have spend many hours working on starters and plate-up.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cell w-100">
-                            <p>Also one major part of my life has been to be a carer and to look after the people in my house and family. Its been a very wierd and strange upbringing but I can not deny how this has changed my personaliy and way of thinking. I have ranged from a series of tasks but generally most of the tasks throughout the house would be placed onto my todo. This is something that I have never tried to contest and in fact I think it has helped me be able to think more critically and make sure that once a task has been started it most be completed. This is one of the reasons I feel like I am more open minded and willing to learn whatever I must learn.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="experience" class="container">
-                <!-- I have created a time-line using the t-line class,
-                this is to create a list which allows for me to be able to add
-                extra information in the future. This simple, effective timeline presents
-                the work I have completed across a comparable scale. -->
+                <p>I love to learn and create new and interesting things. I am always progressive and always wanting to learn new things. Since I was young I have always been interested in technology, consoles and devices. I began to learn about programming at a young age, and would learn from different medias and online forms to increase my knowledge to use different langauges. Original began with the use of languages like Lua, and then other languages like Java, C++ and HTML. I would create simple projects within each of these languages to be able to try and improve my ability with these languages. These projects would present a range of functionality and would be made to expand my knowledge of the languages as far as I can. Since then I have began to develop my skills even further. I began within my extended studies doing a computing course, which allowed for me to be able to strengthen my knowledge of computers and programming languages. Then with the knowledge I earned from this course I also began to create and repair different consoles and devices. I would create a series of computer towers to be able to backup the knowledge I learned and actual use the knowledge within a practicle example.</p>
+                <p>Since then I have continued to increase my knowledge but during this time I would also work my time within two different industries, catering, and warehouse. These jobs would be taken for a mixture of reasons either financial or to better my knowledge. I am now a qualified chef, after completing an apprenticeship. I love to eat and try new foods, so I got a qualification so I can understand how to run a kitchen and also be able to see how a kitchen functions and whats needed to keep the kitchen functioning. Whilst I worked in the kitchen, i also did a series of jobs that would be stock monitoring, control and management, which where given to me due to overly ciritical thinking about maintaing the storage zones. I also learned about how to keep to professional standards and cook on a frontline station-based kitchen, and have spend many hours working on starters and plate-up.</p>
+                <p>Also one major part of my life has been to be a carer and to look after the people in my house and family. Its been a very wierd and strange upbringing but I can not deny how this has changed my personaliy and way of thinking. I have ranged from a series of tasks but generally most of the tasks throughout the house would be placed onto my todo. This is something that I have never tried to contest and in fact I think it has helped me be able to think more critically and make sure that once a task has been started it most be completed. This is one of the reasons I feel like I am more open minded and willing to learn whatever I must learn.</p>
+            </section>
+            <section id="experience" class="container">
                 <h3>Experience</h3> <hr>
                 <p>This is a timetable of the different places that I have worked. I have simplified a few things about the job and talked about what cause me to join the join and to leave the job.</p>
-                <div class="no-sides" style="margin-left: 0px;">
+                <section class="no-sides" style="margin-left: 0px;">
                     <ul class="t-line">
-                            <li>
-                                <div class="container round-border">
-                                    <p>09/2017 / 06/2018 - Berry Recruitment, at the beginning of my work life. I began as agency for a local catering service, this allowed me to be able to work for many different restraunts and cafees and gave me a taste of the working world within catering. I enjoyed my time working there and learned many different things. This allowed me to work within a stressful but practical enviroment where I could begin to work under the strains and learn how to deal and cope with these types of enviroments.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="container round-border">
-                                    <p>07/2018 / 09/2018 - Amazon Fullfillment Center, this was only breif and was a job that I obtains through a warehousing agency, and this was mainly to see what the working world is like within the warehouse. This was to try and gain a grasp of what type of things happen in the warehouse.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="container round-border">
-                                    <p>10/2018 / 08/2020 - Harvester, this was for around two years, one year was to compelte an apprenticeship and the second was to continue as a chef and stil help as much as I could. I loved everything about this job and loved learning about food and what its like to be a chef for a franchise and taught me how a kitchen should be ran and how to keep up the stores standards not just within the food but everything else.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="container round-border">
-                                    <p>09/2020 / Current - Amazon Sortation Center, I tried finding a range of different jobs as a chef and tried to find a local pub or restraunt that could use my skills but unfortunatly after trying to reach out to these restraunts they did not meet me with the same care. So I began working back in the warehouse just to make sure that I can continue my studies and continue to obtain a form of income. This place is better than the Fullfillment Center and has more of a friendly and helpful atmosphere.</p>
-                                </div>
-                            </li>
+                        <li>
+                            <details class="container round-border">
+                                <summary>09/2017 / 06/2018 - Berry Recruitment</summary>
+                                <p>At the beginning of my work life. I began as agency for a local catering service, this allowed me to be able to work for many different restraunts and cafees and gave me a taste of the working world within catering. I enjoyed my time working there and learned many different things. This allowed me to work within a stressful but practical enviroment where I could begin to work under the strains and learn how to deal and cope with these types of enviroments.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details class="container round-border">
+                                <summary>07/2018 / 09/2018 - Amazon Fullfillment Center</summary>
+                                <p>This was only breif and was a job that I obtains through a warehousing agency, and this was mainly to see what the working world is like within the warehouse. This was to try and gain a grasp of what type of things happen in the warehouse.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details class="container round-border">
+                                <summary>10/2018 / 08/2020 - Harvester</summary>
+                                <p> this was for around two years, one year was to compelte an apprenticeship and the second was to continue as a chef and stil help as much as I could. I loved everything about this job and loved learning about food and what its like to be a chef for a franchise and taught me how a kitchen should be ran and how to keep up the stores standards not just within the food but everything else.</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details class="container round-border">
+                                <summary>09/2020 / Current - Amazon Sortation Center</summary>
+                                <p>I tried finding a range of different jobs as a chef and tried to find a local pub or restraunt that could use my skills but unfortunatly after trying to reach out to these restraunts they did not meet me with the same care. So I began working back in the warehouse just to make sure that I can continue my studies and continue to obtain a form of income. This place is better than the Fullfillment Center and has more of a friendly and helpful atmosphere.</p>
+                            </details>
+                        </li>
                     </ul>
-                </div>
-            </div>
-            <div id="education" class="container">
-                <!-- On the education page, I have made the layout a little more
-                completecated but would like to include images within this section
-                to break up the text and other a varience in the page layouts, but still
-                follow an overal theme. 
-                In this I create tables with the of CSS table classes but then utilies 
-                the tra and alt to make it so that when you view the webpage on a mobile
-                device the text appears after a logo.
-                Whilst on a larger display you see the image and text side by side,
-                and it begins to alternate, meaning for example:
-                TEXT IMAGE
-                IMAGE TEXT
-                This means that its a little bit more of a flow. Although this layout is
-                strange it keeps the view moving around worming there way through this page
-                and offer them an image and text to please the layout and the users.-->
+                </section>
+            </section>
+            <section id="education" class="container">
                 <h3>Education</h3> <hr>
-                <div class="table">
-                    <div class="ro">
-                        <div class="cell w-33">
-                            <img class="img-res" src="image/hope-academy.png" alt="Hope Academy"/>
-                        </div>
-                        <div class="cell w-66">
-                            <p>I began at Hope Academy in highschool and took a series of subjects. My original intention was to obtain a computing course but had to be given an ICT subject instead. This was due to my lack of evidential ability to be able to complete this course, which later on in the sixth form I proved I already had the knowledge. Although I was given an ICT subject instead I still managed to obtain some good levels and subjects. Generally I was the highest scoring student in my side of the year and in my maths class. I obtains a B but still managed to get quiet a high score. My main subjects that I got a passing grade in are ECDL, Mathematics, ICT and then after a resit exam, English.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cell alt-w-33">
-                            <img class="img-res" src="image/sixth-form.jpg" alt="HA Sixth Form"/>
-                        </div>
-                        <div class="cell w-66">
-                            <p>I stayed at Hope Academy for a two more years to complete three Sixth Form courses of my choice. I chose to compelte a course for Computing Level 3 and Engineering. I also attempted to complete a Mathematics A Level and also a Health & Social Care course but due to complecations was unable to complete the course. I also managed to obtains a level in a written project. During my time here this is where I began to gain an education to backup my knowledge of computing. I got onto this course because I showed the teacher that I was more than able to perform this course and was taken on and was the main star pupil.</p>
-                        </div>
-                        <div class="cell tra-w-33">
-                            <img class="img-res" src="image/sixth-form.jpg" alt="HA Sixth Form"/>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cell w-33">
-                            <img class="img-res" src="image/harvester-logo.png" alt="Harvester"/>
-                        </div>
-                        <div class="cell w-66">
-                            <p>I gained an apprenticeship at Harvester. I started a course with a team called Life Time training. Whilst there I learned everything about chefing and gained a qualification for Hospitality and Food Proudctions at a Level 2. I did this to strengthen my knowledge of the catering industry, whilst continuing to program and do things in my past time. I mainly chose this as a potential development of character, as catering is a very strong and busy place to work for and chose to this to help me learn how to do this type of job and deal with what this type of job.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="cell alt-w-33">
-                            <img class="img-res" src="image/code-in-logo.png" alt="Code Institute"/>
-                        </div>
-                        <div class="cell w-66">
-                            <p>I have taken a course with Code Institute to begin to professional enter the world of programming I have done this as a way of trying to learn more about coding and develop my learning from a level 3 bases to a higher level. I chose front end as this is a highly demanded job and want to be able to learn and progress across the different fields. I would like to have a series of different courses within the computing and programming field in future reference.</p>
-                        </div>
-                        <div class="cell tra-w-33">
-                            <img class="img-res" src="image/code-in-logo.png" alt="Code Institute"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="contact" class="container">
-                <!-- Inside of the contact footer I have placed down premetive,
-                links to pages that will be included, I already have in mind what
-                pages will be included, and will place them later in development. -->
+                <aside>
+                    <img class="img-res" src="image/hope-academy.png" alt="Hope Academy"/>
+                </aside>
+                <p>I began at Hope Academy in highschool and took a series of subjects. My original intention was to obtain a computing course but had to be given an ICT subject instead. This was due to my lack of evidential ability to be able to complete this course, which later on in the sixth form I proved I already had the knowledge. Although I was given an ICT subject instead I still managed to obtain some good levels and subjects. Generally I was the highest scoring student in my side of the year and in my maths class. I obtains a B but still managed to get quiet a high score. My main subjects that I got a passing grade in are ECDL, Mathematics, ICT and then after a resit exam, English.</p>
+                <aside class="f-left">
+                    <img class="img-res" src="image/sixth-form.jpg" alt="HA Sixth Form"/>
+                </aside>
+                <p>I stayed at Hope Academy for a two more years to complete three Sixth Form courses of my choice. I chose to compelte a course for Computing Level 3 and Engineering. I also attempted to complete a Mathematics A Level and also a Health & Social Care course but due to complecations was unable to complete the course. I also managed to obtains a level in a written project. During my time here this is where I began to gain an education to backup my knowledge of computing. I got onto this course because I showed the teacher that I was more than able to perform this course and was taken on and was the main star pupil.</p>
+                <aside>
+                    <img class="img-res" src="image/harvester-logo.png" alt="Harvester"/>
+                </aside>
+                <p>I gained an apprenticeship at Harvester. I started a course with a team called Life Time training. Whilst there I learned everything about chefing and gained a qualification for Hospitality and Food Proudctions at a Level 2. I did this to strengthen my knowledge of the catering industry, whilst continuing to program and do things in my past time. I mainly chose this as a potential development of character, as catering is a very strong and busy place to work for and chose to this to help me learn how to do this type of job and deal with what this type of job.</p>
+                <aside class="f-left">
+                    <img class="img-res" src="image/code-in-logo.png" alt="Code Institute"/>
+                </aside>
+                <p>I have taken a course with Code Institute to begin to professional enter the world of programming I have done this as a way of trying to learn more about coding and develop my learning from a level 3 bases to a higher level. I chose front end as this is a highly demanded job and want to be able to learn and progress across the different fields. I would like to have a series of different courses within the computing and programming field in future reference.</p>
+            </section>
+            <footer id="contact" class="container">
                 <h3>Contact</h3> <hr>
                 <p>If you would like any more information there are links below to explore different included documents like my CV, or agency work profile. Other links will connect you to my professional social media.</p>
                 <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/roy-finch-9a2a1716a/">LinkedIn account</a>
                 <a class="footer-link" target="_blank" href="mailto:royfinch99@hotmail.com">Professional Email</a>
                 <a class="footer-link" href="src/CV2.docx" download="CV2.docx">Copy of my CV</a>
-            </div>
-        </div>
-    </div>
+            </footer>
+        </main>
+    </main>
 </body>
 </html>
