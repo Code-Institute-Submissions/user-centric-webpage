@@ -148,6 +148,16 @@ Began to keep altering the negative alteration. Also in the list you can not use
 Then once I did that I also had to change a CSS style which I accidently applied to the nav-bar. I applied changes to the font-family incorrectly and due to this is didnt pass the test the first time.
 Once I fixed that, it was the last issue that the validator presented to me, and once that was done, the validation was compeleted. The website worked correctly and I finished it by storing the CSS externally and creating an access link on the HTML.
 
+After compeleting and finalizing the website, I then began to translate the webpage into a Semantic HTML5 document, this is for the moduels requirements as you are suppose to submit a webpage that is user/programmer friendly.
+I just simply changed the tags around to allow for the webpage to alter to meet these requirements. I used a series of section tags to present sections of the document whilst I then used articles and more specific tags for more specific purposes.
+I didn't have to change much of the HTML to make it semantic. I prefer to program my webpages using ids and class codes which would define sections of the webpage instead of defining just the specific tag like a nav tag.
+Although semantic HTML comes with a series of alternative tags each of them have different requirements and are less multi-purpose than the div tags. I always plan my webpages out thoroughly and make sure that each step is taken to make the website function and appear as planned.
+I always like to create levels within both HTML and CSS and slowly work towards the final goal. Using a basic line of HTML and a skeleton CSS you can program the layout of the webpage.
+Then when you begin to specify and clarify the tags and classes it becomes less of a skeleton more of the muscles and function to the page. And then once all thats planned out you can view how the webpage should look and what you need to do to alter the looks of the webpage.
+Once completed I always create and alter my layouts to semantic as it helps to be able to correctly layout not just the webpage but the HTML and CSS.
+I then began to search through the webpage and looked for anywhere were there was redundant or excess code. I always like to do this with my programs as this allows for an extremely refined and high quality result.
+It is easy to create and display your idea but another one is to conceptialise it and allow for that idea to become stronger and more agile and smarter.
+
 <h2>Bibliography</h2>
 <hr>
 

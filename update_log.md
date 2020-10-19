@@ -52,4 +52,17 @@ general border around the HTML elements, and be able to create and structure the
         Uploaded logos for the education page so that the paragraphs have been split up and matched with a corrisponding image, also changed the Harvester logo to the M&B logo which is the mother brand company name for Harvester.
         The Harvester logo was not working properly on smaller devices and was not properly scaling to the chosen size.
     </li>
+    <li>
+        I finalized the webpage after finishing and correcting any issues with the webpage. I then began to translate and communicate the HTML into more semantic HTML.
+        This makes your website easier to view and allows for your webpage to have an algorithmic layout. This is usually used to help programmer for future reference and also so your site can be visited by an algorithm which can search for information.
+    </li>
+    <li>
+        Altered most of the tags to corrispond with the required result. Took aware sections of redundant code and made it simpler. Changed CSS behaviours and made then more constructive, so that they can work with the new semantic format.
+    </li>
+    <li>
+        Had several issues with the images on this new sematic layout, they behaved differently due to the fact that there parent was an aside tag. I made them behave similar to the original div tags so that they would either float to the right or alternate sides.
+        I had to change the way the pages where padded. I had to change the padding properties to each page so that it was not a set px amount but yet more of a vw, this allowed for the images and text to still give the user the feel as though the webpage was layed out like a text editor.
+    </li>
+    <li>
+    </li>
 </ul>
