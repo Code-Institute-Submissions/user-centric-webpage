@@ -51,9 +51,6 @@ body {
 a {
     color: black;
 }
-hr {
-    width:98%;
-}
 figcaption {
     color: grey;
     font-size: 12px;
@@ -98,14 +95,14 @@ a:hover {
         text-align: center;
     }
     .img-res {
-        width: 75vw;
+        width: 100%;
         height: 30vh;
         margin-left: auto;
         margin-right: auto;
     }
-    .circle-img {
-        width: 66vw;
-        height: 66vw;
+    .pp-img {
+        width: 60vw;
+        height: 60vw;
         display: inline-block;
         margin-right: auto;
         margin-left: auto;
@@ -113,24 +110,6 @@ a:hover {
         padding: 5px;
         border: 1px solid black;
         border-radius: 50%;
-    }
-    .round-img {
-        width: 75vw;
-        height: auto;
-        display: inline-block;
-        margin-right: auto;
-        margin-left: auto;
-        margin: 5px;
-        padding: 5px;
-        border: 1px solid black;
-        border-radius: 20px;
-    }
-    .square-img {
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        padding: 5px;
-        border: 1px solid black;
     }
     h3 {
         text-align: center;
@@ -151,7 +130,7 @@ a:hover {
     }
     figure {
         float: none;
-        width: 50vw;
+        width: 75%;
         text-align: center;
     }
     main {
@@ -179,7 +158,7 @@ a:hover {
         width: 25vw;
         height: 30vh;
     }
-    .circle-img {
+    .pp-img {
         width: 25vw;
         height: 25vw;
         margin: 5vw;
@@ -187,35 +166,8 @@ a:hover {
         border: 1px solid black;
         border-radius: 50%;
     }
-    .round-img {
-        width: 25vw;
-        height: auto;
-        margin: 5px;
-        padding: 5px;
-        border: 1px solid black;
-        border-radius: 20px;
-    }
-    .square-img {
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        padding: 5px;
-        border: 1px solid black;
-    }
     .overview p {
         margin: 5px;
-    }
-    .w-33 {
-        width: 33%;
-    }
-    .w-50 {
-        width: 49%;
-    }
-    .w-66 {
-        width: 66%;
-    }
-    .w-100 {
-        width: 100%;
     }
     /* These are class controlls to be able to modify and alter the display
     for the two different media files, these set the corrosponding
