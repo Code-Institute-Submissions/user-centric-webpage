@@ -151,9 +151,13 @@ a:hover {
         float: right;
         background-color: #ffffff;
     }
-    .img-res {
+    .img-wide {
         width: 25vw;
-        height: 30vh;
+        height: 25vh;
+    }
+    .img-squ {
+        width: 15vw;
+        height: 15vw;
     }
     .pp-img {
         width: 25vw;
