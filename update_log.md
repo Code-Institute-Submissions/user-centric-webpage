@@ -64,5 +64,9 @@ general border around the HTML elements, and be able to create and structure the
         I had to change the way the pages where padded. I had to change the padding properties to each page so that it was not a set px amount but yet more of a vw, this allowed for the images and text to still give the user the feel as though the webpage was layed out like a text editor.
     </li>
     <li>
+        Made two seperate classes to control the sizes of the images, one for wide images and one for square. this was to reduce image loss and make the quality better.
+    </li>
+    <li>
+        Corrected anything that the validater had flagged. Gone through the validator results and improved website layout and coding further.
     </li>
 </ul>
