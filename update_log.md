@@ -67,6 +67,9 @@ general border around the HTML elements, and be able to create and structure the
         Made two seperate classes to control the sizes of the images, one for wide images and one for square. this was to reduce image loss and make the quality better.
     </li>
     <li>
+        Noticed that the summary elements are unforgiving and have small click-boxes, I incresed this area by adding a global padding to the summary css styling class.
+    </li>
+    <li>
         Corrected anything that the validater had flagged. Gone through the validator results and improved website layout and coding further.
     </li>
 </ul>
