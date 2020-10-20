@@ -43,6 +43,9 @@ between the two versions of the website.*/
     border-left: 1px solid black;
     margin-left: 20px;
 }
+.m-bottom {
+    margin-bottom: 20vh;
+}
 body {
     background-color: #d9d9d9;
     font-family: "Trebuchet MS", Helvetica, Sans-serif;
@@ -95,7 +98,13 @@ a:hover {
         background-color: #ffffff;
         text-align: center;
     }
-    .img-res {
+    .img-squ {
+        width: 30vw;
+        height: 30vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-wide {
         width: 100%;
         height: 30vh;
         margin-left: auto;
