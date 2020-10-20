@@ -162,8 +162,10 @@ Once I had finished the webpage and changed it to a semantic HTML layout, I had 
 I wanted to make sure that they are both laid out correctly and also presented in a very well structured manor.
 
 The results from the HTML tested correctly and I had created a website that offered no warnings or errors.
+<a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Froy-finch.github.io%2Fuser-centric-webpage%2F">Results</a>
 
 The results from the CSS validator showed that there was no issues with my CSS files.
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froy-finch.github.io%2Fuser-centric-webpage%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Results</a>
 
 After altering a few issues and other little things I am now able to say that the webpage has got the correct layout and structure as I initiallty intended.
 Even though the color scheme is basic, I am intending for the webpage to focus on me and the information I would like to present.
